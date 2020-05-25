@@ -107,7 +107,7 @@ public class SplashActivity extends AppCompatActivity implements ITypeView {
 
     @Override
     public void loadError() {
-        ToastUtil.showMessage("数据加载失败，请退出重试");
+//        ToastUtil.showMessage("数据加载失败，请退出重试");
     }
 
     @Override
