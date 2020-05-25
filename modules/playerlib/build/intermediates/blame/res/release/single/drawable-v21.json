@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

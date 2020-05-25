@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:contentInsetStart="0dp"
+    android:background="#383737"
+    android:id="@+id/toolbar_layout"
+    android:layout_height="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="24dp"
+            android:id="@+id/backup"
+            android:background="@drawable/ic_left_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_height="24dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/center_tv"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:text="查看全部"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:layout_width="60dp"
+            android:id="@+id/right_view"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:width="@dimen/dp_40"
+        android:height="@dimen/dp_40"
+        android:drawable="@drawable/share_weichat_r" />
+    <item
+        android:bottom="10dp"
+        android:drawable="@drawable/ic_weixin_circle"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+</layer-list>

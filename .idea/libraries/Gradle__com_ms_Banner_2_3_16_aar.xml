@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ms:Banner:2.3.16@aar">
+    <CLASSES>
+      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/1b82b4913ef6f7c9e074dedb55935f00/Banner-2.3.16/jars/classes.jar!/" />
+      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/1b82b4913ef6f7c9e074dedb55935f00/Banner-2.3.16/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.ms/Banner/2.3.16/ea9c98c0f785e9209e7b5dfb133b844f657b16f1/Banner-2.3.16-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.ms/Banner/2.3.16/b19e8cabcef6807ebc8314c44ebc7c3c62737ce4/Banner-2.3.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

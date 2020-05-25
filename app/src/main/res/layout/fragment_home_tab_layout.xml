@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="1dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toobar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_bg"
+            app:contentInsetStart="0dp"
+            app:paddingStart="0dp">
+
+            <RelativeLayout
+                android:id="@+id/home_head"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/self_history"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/ic_history" />
+
+                <ImageView
+                    android:id="@+id/self_favor"
+                    android:layout_width="24dp"
+                    android:layout_height="23dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_toLeftOf="@+id/self_history"
+                    android:background="@drawable/ic_shaixuan" />
+
+                <TextView
+                    android:id="@+id/to_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_toLeftOf="@+id/self_favor"
+                    android:background="@drawable/serach_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:text="@string/seach_key"
+                    android:textColor="#C1FFFFFF"
+                    android:textSize="14sp" />
+
+                <com.flyco.tablayout.SlidingTabLayout
+                    android:id="@+id/tablayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/to_search"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:elevation="0dp"
+                    android:foregroundGravity="left"
+                    app:tl_indicator_color="@color/white"
+                    app:tl_indicator_corner_radius="@dimen/dp_4"
+                    app:tl_indicator_height="@dimen/dp_4"
+                    app:tl_indicator_width="20dp"
+                    app:tl_tab_width="60dp"
+                    app:tl_textSelectColor="@color/white"
+                    app:tl_textUnselectColor="@color/tab_normal_color"
+                    app:tl_textsize="18sp" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    </android.support.v4.view.ViewPager>
+
+</android.support.design.widget.CoordinatorLayout>

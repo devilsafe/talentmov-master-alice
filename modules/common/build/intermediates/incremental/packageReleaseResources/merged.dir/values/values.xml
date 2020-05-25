@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">common</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="confirm_exit_edit">确定退出编辑？</string>
+    <style name="Dialog_Fullscreen" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/AlertDialog.AppCompat</item>
+    </style>
+</resources>

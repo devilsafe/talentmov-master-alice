@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yanzhenjie:sofia:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/09b34810dfb23e4136e473645b9b164f/sofia-1.0.5/jars/classes.jar!/" />
+      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/09b34810dfb23e4136e473645b9b164f/sofia-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.yanzhenjie/sofia/1.0.5/93c88d008d51f79905b61713f887e412bd3c2a48/sofia-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.yanzhenjie/sofia/1.0.5/6df41679684b5bc89341c7917f2b019b65dd3603/sofia-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

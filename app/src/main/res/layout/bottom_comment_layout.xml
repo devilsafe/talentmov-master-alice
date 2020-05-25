@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:background="#159FFF"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/eidt_comment_content"
+            android:background="@drawable/input_border"
+            android:hint="快来表达你的感想吧"
+            android:gravity="center_vertical"
+            android:textColor="#605F5F"
+            android:layout_toLeftOf="@+id/send"
+            android:layout_marginRight="10dp"
+            android:textSize="14sp"
+            android:textColorHint="#B6B6B6"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="发送"
+            android:id="@+id/send"
+            android:textSize="16sp"
+            android:textColor="#3E3E3E"
+            />
+    </RelativeLayout>
+</FrameLayout>

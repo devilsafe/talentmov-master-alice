@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="1dp"
+    android:padding="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:id="@+id/m3u8_item_icon"
+            android:background="#EDE9E9"
+            android:scaleType="centerCrop"
+            android:layout_margin="4dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/m3u8_title"
+            android:layout_toRightOf="@+id/m3u8_item_icon"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#393838"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="三国战绩"
+            android:layout_marginTop="20dp"
+            android:text="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/m3u8_state"
+            tools:text="已暂停"
+            android:layout_alignLeft="@+id/m3u8_title"
+            android:layout_below="@+id/m3u8_title"
+            android:textSize="12sp"
+            android:textColor="#6F6E6E"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

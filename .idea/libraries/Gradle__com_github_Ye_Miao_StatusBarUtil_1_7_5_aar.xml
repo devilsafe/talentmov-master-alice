@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Ye-Miao:StatusBarUtil:1.7.5@aar">
+    <CLASSES>
+      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/a5ba76c04343db89bdd33fccd45b2c09/StatusBarUtil-1.7.5/jars/classes.jar!/" />
+      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/a5ba76c04343db89bdd33fccd45b2c09/StatusBarUtil-1.7.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.Ye-Miao/StatusBarUtil/1.7.5/fa9e97b1f8c959245c06079d8db17a9d35becf69/StatusBarUtil-1.7.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.Ye-Miao/StatusBarUtil/1.7.5/3307dc017d248156c1028b33bcd3904400ca2b1/StatusBarUtil-1.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

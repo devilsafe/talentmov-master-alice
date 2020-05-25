@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+    }
+}
+
+android {
+    compileSdkVersion 28
+	lintOptions {
+		abortOnError false
+	}
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    api 'com.github.NanoHttpd.nanohttpd:nanohttpd:master'
+    //蚯蚓导航 https://github.com/auv1107/tablayout-android
+    compileOnly 'com.github.hiliving:tablayout-android:1.0.1'
+    compileOnly 'com.jcodecraeer:xrecyclerview:1.5.9'
+    compileOnly 'me.drakeet.multitype:multitype:3.4.4'
+    compileOnly 'com.github.bumptech.glide:glide:4.8.0'
+
+    compileOnly 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+    //对话框
+    compileOnly 'com.lxj:xpopup:1.6.7'
+
+    //只播放器是外部依赖，保证独立
+    implementation project(path: ':modules:playerlib')
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+
+}
+

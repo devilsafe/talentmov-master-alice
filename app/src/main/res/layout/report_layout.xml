@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/back"
+            android:background="@drawable/ic_left_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="意见反馈"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="4dp"
+            android:id="@+id/title"
+            android:background="@drawable/input_border_shape"
+            android:layout_marginTop="20dp"
+            android:hint="标题"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/app_bug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bug"
+                android:checked="false" />
+            <RadioButton
+                android:id="@+id/page_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="页面错误"
+                android:checked="false" />
+            <RadioButton
+                android:id="@+id/res_advice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容要求"
+                android:checked="false" />
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/radioGroup"
+            android:id="@+id/content"
+            android:textSize="14sp"
+            android:paddingLeft="4dp"
+            android:background="@drawable/input_border_shape"
+            android:layout_marginTop="20dp"
+            android:hint="输入你的问题或建议"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/content"
+            android:id="@+id/contact"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="4dp"
+            android:background="@drawable/input_border_shape"
+            android:layout_marginTop="20dp"
+            android:hint="联系方式"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/submit"
+            android:text="提交"
+            android:background="@drawable/login_bt_selector"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/contact"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+</LinearLayout>

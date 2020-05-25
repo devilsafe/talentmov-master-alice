@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ad_conntennt"
+    android:background="@color/colorPrimaryDark">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/web_ad"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cut_down_shap"
+        android:paddingLeft="4dp"
+        android:layout_marginRight="30dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/time_cut"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

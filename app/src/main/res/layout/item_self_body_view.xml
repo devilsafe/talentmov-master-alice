@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAF8F8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/grid_my_collection_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/self_favor"
+            android:layout_margin="1px"
+            android:paddingTop="@dimen/dp_10"
+            android:text="收藏" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/self_his"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/grid_play_history_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_margin="1px"
+            android:text="历史" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/self_clear_cache"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grid_my_follow_icon"
+            android:drawablePadding="10dp"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_margin="1px"
+            android:text="清除缓存" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/self_down"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grid_my_message_icon"
+            android:background="@color/white"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_margin="1px"
+            android:text="下载" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAF8F8"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:layout_margin="1px"
+            android:layout_weight="1"
+            android:id="@+id/self_share"
+            android:drawableTop="@drawable/grid_draft_video_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="分享" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:layout_margin="1px"
+            android:id="@+id/self_jump1"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grid_draft_manage_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="预留1" />
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:id="@+id/self_jump2"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grid_answer_question_icon"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:layout_margin="1px"
+            android:background="@color/white"
+            android:text="预留2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_margin="1px"
+            android:layout_weight="1"
+            android:id="@+id/self_jump3"
+            android:drawableTop="@drawable/grid_integral_center_icon"
+            android:background="@color/white"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="预留3" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FAF8F8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:layout_margin="1px"
+            android:id="@+id/self_report"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/grid_report"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="帮助/反馈" />
+
+
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_margin="1px"
+            android:layout_weight="1"
+            android:id="@+id/self_qqgroup"
+            android:drawableTop="@drawable/grid_qq"
+            android:background="@color/white"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="QQ交流群" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:background="@color/white"
+            android:layout_margin="1px"
+            android:layout_weight="1"
+            android:id="@+id/self_qq"
+            android:drawableTop="@drawable/icon_potato_com"
+            android:visibility="invisible"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_10"
+            android:text="分享" />
+    </LinearLayout>
+</LinearLayout>

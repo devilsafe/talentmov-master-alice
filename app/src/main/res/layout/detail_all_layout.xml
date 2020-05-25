@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_bg_shap"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_marginBottom="50dp"
+    android:layout_height="600dp">
+   <ImageView
+       android:layout_width="60dp"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/line"
+       android:background="@drawable/bottom_sheet_small_line"
+       android:layout_height="4dp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="影片详情"
+       android:layout_marginTop="10dp"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       android:layout_below="@+id/line"
+       android:textColor="@color/dark_colorPrimaryDark"
+       android:id="@+id/title"
+       />
+   <ImageView
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_alignParentRight="true"
+       android:layout_below="@+id/line"
+       android:layout_marginTop="10dp"
+       android:backgroundTint="@color/dark_colorPrimaryDark"
+       android:background="@drawable/ic_close_black_24dp"
+       android:textSize="16sp"
+       android:id="@+id/close"
+       />
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:scrollbars="none"
+       android:layout_below="@id/title"
+       android:paddingBottom="20dp"
+       android:paddingTop="10dp"
+       android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/detail_desc"
+          android:lineSpacingExtra="@dimen/dp_4"
+          android:layout_marginTop="20dp"
+          android:textSize="14sp"
+          android:layout_width="match_parent"
+          android:textColor="@color/dark_colorPrimaryDark"
+          android:layout_height="match_parent"/>
+   </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:gravity="center_vertical"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/post_img"
+            android:layout_width="120dp"
+            android:layout_height="164dp"
+            android:scaleType="centerCrop"
+            tools:background="#00BFA5" />
+
+        <TextView
+            android:id="@+id/item_update_tag"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_biaoqian"
+            android:gravity="top|center_horizontal"
+            android:text="新"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/update_seri"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:paddingBottom="6dp"
+            android:gravity="bottom|right"
+            android:background="@drawable/item_gradient_shape"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingLeft="2dp"
+            android:paddingRight="12dp"
+            tools:text="测试更新文本"
+            android:layout_alignBottom="@+id/post_img"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="bottom"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="6dp"
+            android:singleLine="true"
+            android:layout_below="@+id/post_img"
+            android:layout_marginTop="4dp"
+            android:text="电影名字"
+            android:textColor="#353535"
+            android:layout_marginBottom="4dp"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/up_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_alignLeft="@+id/post_img"
+            tools:text="2018-5-9上映"
+            android:textColor="#CBCACA"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_below="@+id/post_title"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

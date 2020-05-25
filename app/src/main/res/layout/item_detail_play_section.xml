@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="@dimen/dp_10"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="默认线路"
+        android:id="@+id/play_res"
+        android:textSize="14sp"
+        android:drawablePadding="@dimen/dp_4"
+        android:drawableRight="@drawable/ic_expend"
+        android:textColor="#323232"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="选集"
+        android:layout_below="@+id/play_res"
+        android:id="@+id/seri_title"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_dark_color" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/play_list"
+        android:layout_below="@+id/seri_title"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/see_all"
+        android:text="查看全部"
+        android:drawableRight="@drawable/ic_gengduo"
+        android:layout_alignParentRight="true"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/seri_title"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

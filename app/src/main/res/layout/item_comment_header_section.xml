@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="1dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:text="评论"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:id="@+id/title"
+        android:textColor="@color/title_dark_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/sofa_view"
+        android:visibility="gone"
+        android:layout_height="140dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_shafa"
+            android:layout_centerInParent="true"
+            android:id="@+id/shafa"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="还没有人评论哦，快来抢沙发吧！"
+            android:textSize="12sp"
+            android:layout_below="@+id/shafa"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>

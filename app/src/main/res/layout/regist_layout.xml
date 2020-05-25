@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="#FCF8F8"
+                android:layout_height="match_parent"
+>
+
+
+    <include layout="@layout/tool_bar_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:background="#FFFFFF"
+            android:layout_marginTop="50dp"
+            android:hint="用户名"
+            android:textSize="@dimen/sp_14"
+            android:paddingLeft="@dimen/dp_10"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="@dimen/dp_10"
+            android:hint="密码"
+            android:textSize="@dimen/sp_14"
+            android:paddingLeft="@dimen/dp_10"
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:background="#FFFFFF"
+            android:layout_height="50dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_below="@+id/pass"
+            android:layout_marginTop="@dimen/dp_10"
+            android:hint="邮箱(用于密码找回)"
+            android:textSize="@dimen/sp_14"
+            android:paddingLeft="@dimen/dp_10"
+            android:id="@+id/pass_mail"
+            android:inputType="textEmailAddress"
+            android:background="#FFFFFF"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="注册"
+            android:id="@+id/login_bt"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_below="@+id/pass_mail"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/login_bt_selector"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="80dp"
+        android:id="@+id/tab_name"
+        android:gravity="center"
+        tools:text="科幻"
+        android:layout_height="40dp"/>
+</FrameLayout>

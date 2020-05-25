@@ -1,0 +1,1 @@
+include ':app', 'modules:playerlib', 'modules:common', ':modules:m3u8library'

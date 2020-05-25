@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Bakumon:StatusLayoutManager:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/6f3ea87bc18bccdab140ed1535f701ef/StatusLayoutManager-1.0.4/jars/classes.jar!/" />
+      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/6f3ea87bc18bccdab140ed1535f701ef/StatusLayoutManager-1.0.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.Bakumon/StatusLayoutManager/1.0.4/23ce8f8e1046e6c31a2b9b5b7c7a762a66e0d947/StatusLayoutManager-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

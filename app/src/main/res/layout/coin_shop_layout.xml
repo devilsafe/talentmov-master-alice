@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.movtalent.app.view.ArcShapeView
+        android:layout_width="match_parent"
+        android:id="@+id/arc_view"
+        android:layout_height="160dp"/>
+    <include layout="@layout/tool_bar_layout"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="6dp"
+        android:id="@+id/vip_card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        app:cardElevation="0dp"
+        android:layout_height="140dp">
+        <RelativeLayout
+            android:id="@+id/heaer_section2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/toolbar_layout">
+            <TextView
+                android:id="@+id/shop_title"
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="金币余额"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/title_gray_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/coin_num"
+                android:text="22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFAB00"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/shop_title"
+                android:layout_marginRight="30dp"
+                tools:text="20" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/shop_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="会员到期："
+                    android:textColor="@color/title_gray_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/coin_num2"
+                    android:text="2019.2.3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFAB00"
+                    android:textSize="14sp"
+                    tools:text="2019.6.9" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <com.antiless.support.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/vip_card"
+        android:elevation="0dp"
+        app:indicatorEndColor="@color/title_dark_color"
+        app:indicatorMarginEnd="66dp"
+        app:indicatorMarginStart="66dp"
+        app:indicatorStartColor="@color/title_dark_color"
+        app:tabIndicatorHeight="2dp"
+        app:tabSelectedTextColor="@color/title_dark_color"
+        app:tabTextAppearance="@style/CustomTablayoutTextAppearance3"
+        app:tabTextColor="@color/title_gray_color"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_vp"
+        android:layout_below="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

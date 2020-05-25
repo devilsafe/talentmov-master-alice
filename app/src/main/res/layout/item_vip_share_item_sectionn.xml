@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/vip_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:id="@+id/share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/vip_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/vip_icon"
+            android:text="分享到朋友圈"
+            android:textColor="@color/title_gray_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ECA604"
+            android:text="+1金币"
+            android:id="@+id/coin_desc"
+            android:drawableLeft="@drawable/ic_share_coin"
+            android:drawablePadding="@dimen/dp_4"
+            android:layout_alignLeft="@+id/share_title"
+            android:layout_below="@+id/share_title"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#C6C2C2"
+            tools:text="每日分享下载链接"
+            android:drawablePadding="@dimen/dp_4"
+            android:layout_alignLeft="@+id/share_title"
+            android:id="@+id/share_desc"
+            android:layout_below="@+id/coin_desc"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/toShare"
+            android:text="去分享"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/share_bt_bg"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</LinearLayout>

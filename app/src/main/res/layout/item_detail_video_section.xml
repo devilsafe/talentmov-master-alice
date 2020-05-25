@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="@dimen/dp_10"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="wrap_content"
+        tools:text="更新至22集"
+        android:layout_below="@+id/vod_name"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/vod_remark"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/dp_4"
+        android:paddingRight="@dimen/dp_4"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="11sp"
+        android:background="@drawable/remark_shape"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/vod_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/title_dark_color"
+        tools:text="大大雪地大雪地大雪地大雪地大雪地大雪地大雪地雪地"
+        android:maxEms="15"
+        android:maxLines="2"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/vod_more_desc"
+        android:textSize="14sp"
+        android:text="简介"
+        android:layout_marginRight="@dimen/dp_4"
+        android:drawableRight="@drawable/ic_gengduo"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/vod_score"
+        tools:text="9.0分"
+        android:layout_toRightOf="@+id/vod_name"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="@dimen/dp_4"
+        android:paddingRight="@dimen/dp_4"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/vod_name"
+        android:layout_toRightOf="@+id/vod_remark"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/count_and_type"
+        tools:text="505次播放      灾难"
+        android:textSize="12sp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="@color/title_gray_color"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="影片来源：网络"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/vod_line"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/vod_report"
+        android:text="反馈"
+        android:textSize="12sp"
+        android:layout_toLeftOf="@+id/vod_share"
+        android:layout_marginRight="20dp"
+        android:layout_alignBottom="@+id/vod_line"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:drawablePadding="2dp"
+        android:drawableTop="@drawable/ic_desc_request"
+        android:textColor="@color/title_gray_color"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/vod_share"
+        android:text="分享"
+        android:textSize="12sp"
+        android:layout_marginRight="@dimen/dp_10"
+        android:drawablePadding="1dp"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/vod_line"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:drawableTop="@drawable/ic_detail_share"
+        android:textColor="@color/title_gray_color"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#F4F2F2"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/vod_line"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="20热评"
+        android:drawableLeft="@drawable/ic_comment"
+        android:textSize="12sp"
+        android:layout_below="@+id/vod_line"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="@dimen/dp_4"
+        android:visibility="gone"
+        android:textColor="@color/title_gray_color"
+        android:id="@+id/vod_comment"
+        android:gravity="center_vertical"
+        android:layout_height="30dp"/>
+</RelativeLayout>

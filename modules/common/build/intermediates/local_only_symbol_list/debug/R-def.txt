@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable flow_tag_bg
+drawable ic_left_back
+drawable input_border
+string app_name
+string cancel
+string confirm
+string confirm_exit_edit
+style Dialog_Fullscreen

@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "481,535,589",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "530,584,631"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\32b47e7874d0a7dbf599e668d9f72bc8\\xrecyclerview-1.5.9\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,180,242,295,341,388,434",
+                        "endColumns": "60,63,61,52,45,46,45,46",
+                        "endOffsets": "111,175,237,290,336,383,429,476"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "481,535,589",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "530,584,631"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\32b47e7874d0a7dbf599e668d9f72bc8\\xrecyclerview-1.5.9\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,180,242,295,341,388,434",
+                        "endColumns": "60,63,61,52,45,46,45,46",
+                        "endOffsets": "111,175,237,290,336,383,429,476"
+                    }
+                }
+            ]
+        }
+    ]
+}

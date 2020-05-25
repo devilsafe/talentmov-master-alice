@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.media.playerlib"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:7:5-75
+14-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:7:22-72
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:9:5-81
+16-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:10:5-68
+17-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+18-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:11:5-86
+18-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:11:22-83
+19
+20    <application>
+20-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:12:5-21:19
+21        <activity
+21-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:13:9-19:20
+22            android:name="com.media.playerlib.PlayMainActivity"
+22-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:13:19-51
+23            android:configChanges="orientation|screenSize|keyboardHidden"
+23-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:14:13-74
+24            android:launchMode="singleTask"
+24-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:15:13-44
+25            android:screenOrientation="landscape"
+25-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:17:13-50
+26            android:theme="@style/Theme.Transparent" >
+26-->C:\Users\ee kinds\IdeaProjects\talentmov-master\talentmov-master\modules\playerlib\src\main\AndroidManifest.xml:16:13-53
+27        </activity>
+28    </application>
+29
+30</manifest>

@@ -1,0 +1,156 @@
+ext {
+    var = '../talent.keystore'
+}
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.movtalent.app"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 100
+        versionName "1.0.0"
+		ndkVersion '21.1.6352462'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        packagingOptions {
+            exclude 'META-INF/rxjava.properties'
+        }
+        // tencent+你的AppId
+        manifestPlaceholders = ["tencentAuthId": "1109823571"]
+        multiDexEnabled true
+        ndk {
+            splits {
+                abi {
+                    reset()//重置 ABI 列表为只包含一个空字符串（与 include 一起使用可以表示要使用哪一个 ABI，而不是要 exclude 哪些 ABI）
+                    enable true // 设为true，才能启用ABI拆分机制在打包时根据架构生成不同的apk文件
+                    universalApk false  // If true, 构建支持所有平台abi类型，构建一个包，包含多个架构的so(只要代码中有的都会打进去)
+                    include "armeabi-v7a", "armeabi" // 设置所有要支持的abi类型，构建多个包，每个包只包含一个架构的so
+                    exclude "x86"   // 设置所有不要支持的abi类型
+                }
+            }
+            
+        }
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        lintOptions {
+            abortOnError false
+            checkReleaseBuilds false
+            // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+            disable 'MissingTranslation'
+
+        }
+    }
+    signingConfigs {
+
+        release {
+            keyAlias 'key0'
+            keyPassword "12345678"
+            storeFile file('../talent.keystore')
+            storePassword "12345678"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a'
+        }
+    }
+    lintOptions { checkReleaseBuilds false }
+    packagingOptions {
+        exclude 'META-INF/beans.xml'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.github.forvv231:EasyNavigation:1.0.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    //view 绑定
+    api 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+//权限管理
+    implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+    //流式标签
+    implementation 'com.github.alidili:FlowLayout:v1.5'
+    //数据库room
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    implementation project(':modules:common')
+    implementation project(':modules:playerlib')
+
+    implementation "com.simple:spiderman:1.1.2"
+    implementation 'com.yanzhenjie:sofia:1.0.5'
+    //调色板
+    implementation 'com.android.support:palette-v7:28.0.0'
+    //渐变状态栏
+    implementation 'com.github.Ye-Miao:StatusBarUtil:1.7.5'
+    //tablayout
+    //对话框
+    implementation 'com.lxj:xpopup:1.8.10'
+    //加载状态
+    implementation 'com.billy.android:gloading:1.0.0'
+    implementation('com.squareup.retrofit2:converter-simplexml:2.1.0') {
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+    }
+    //多类型recycleview
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+
+    //多类型adapter
+    implementation 'me.drakeet.multitype:multitype:3.4.4'
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+
+    implementation 'cn.bingoogolapple:bga-banner:2.2.6@aar'
+
+    //多状态布局切换
+    implementation 'com.github.Bakumon:StatusLayoutManager:1.0.4'
+
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+
+    //第三方登录分享
+    implementation 'com.github.tianzhijiexian:ShareLoginLib:2.0.0-beta'
+
+    //友盟
+    implementation 'com.umeng.umsdk:analytics:8.0.0'
+    implementation 'com.umeng.umsdk:common:2.0.0'
+    //友盟推送
+    //PushSDK必须依赖utdid库，所以需要加入对应依赖
+    implementation 'com.umeng.umsdk:utdid:1.1.5.3'
+    //PushSDK
+    implementation 'com.umeng.umsdk:push:6.0.1'
+
+    //banner
+    implementation 'com.ms:Banner:2.3.16'
+    implementation project(path: ':modules:m3u8library')
+
+    implementation('com.karumi:dexter:4.2.0', {
+        exclude group: 'com.android.support'
+    })
+}

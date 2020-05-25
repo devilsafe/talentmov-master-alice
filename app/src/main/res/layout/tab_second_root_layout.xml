@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.antiless.support.widget.TabLayout
+        android:id="@+id/sec_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="0dp"
+        app:indicatorEndColor="@color/title_dark_color"
+        app:indicatorMarginEnd="26dp"
+        app:indicatorMarginStart="26dp"
+        app:indicatorStartColor="@color/title_dark_color"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/tab_2_selected_color"
+        app:tabTextAppearance="@style/CustomTablayoutTextAppearance3"
+        app:tabTextColor="@color/tab_2_normal_color" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/sec_tab_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

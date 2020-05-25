@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/home_head"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:id="@+id/backup"
+            android:background="@drawable/ic_left_back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_height="24dp"/>
+
+        <EditText
+            android:id="@+id/to_search"
+            android:layout_toRightOf="@+id/backup"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_toLeftOf="@+id/do_search"
+            android:background="@drawable/serach_page_bg"
+            android:gravity="center_vertical"
+            android:hint="搜索 影片、动漫、电视剧"
+            android:paddingLeft="16dp"
+            android:textColor="#C1212020"
+            android:imeOptions="actionSearch"
+            android:textColorHint="#C8727272"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:background="@drawable/ic_clear"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/to_search"
+            android:id="@+id/clear"
+            android:layout_marginRight="10dp"
+            android:layout_height="14dp"/>
+
+
+        <TextView
+            android:id="@+id/do_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/content"
+        android:layout_height="match_parent"/>
+</LinearLayout>

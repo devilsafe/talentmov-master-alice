@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="talentmov-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/modules/common/common.iml" filepath="$PROJECT_DIR$/modules/common/common.iml" group="talentmov-master/modules/common" />
+      <module fileurl="file://$PROJECT_DIR$/modules/m3u8library/m3u8library.iml" filepath="$PROJECT_DIR$/modules/m3u8library/m3u8library.iml" group="talentmov-master/modules/m3u8library" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" group="talentmov-master/modules" />
+      <module fileurl="file://$PROJECT_DIR$/modules/playerlib/playerlib.iml" filepath="$PROJECT_DIR$/modules/playerlib/playerlib.iml" group="talentmov-master/modules/playerlib" />
+      <module fileurl="file://$PROJECT_DIR$/talentmov-master.iml" filepath="$PROJECT_DIR$/talentmov-master.iml" group="talentmov-master" />
+    </modules>
+  </component>
+</project>

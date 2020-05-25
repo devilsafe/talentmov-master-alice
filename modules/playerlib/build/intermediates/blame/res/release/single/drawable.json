@@ -1,0 +1,418 @@
+[
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_bofang_left.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_bofang_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_refresh.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_ic_crop.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\drawable\\ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_play_pause.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_play_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_loader.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\drawable\\ucrop_vector_loader.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\dlan_pic.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\dlan_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_reduce.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_reduce.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\style_video_player_video_bottom_seekbar.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\style_video_player_video_bottom_seekbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_play_yes.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_play_yes.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\_xpopup_list_bg.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\20267aa5d049fe6c6bf37fedc75ebe95\\xpopup-1.6.7\\res\\drawable\\_xpopup_list_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\volume_bg.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\volume_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_fullscreen.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_fullscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_vector_loader_animated.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\drawable\\ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ucrop_shadow_upside.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\771891163689c791cf76099630daacb8\\ucrop-2.2.0\\res\\drawable\\ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\dlan_bag.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\dlan_bag.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\progressbar_horizontal.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\8031a15ab0ca515f48e0ffeddc62fadc\\library-2.2.0\\res\\drawable\\progressbar_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\play_bt_selector.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\play_bt_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\loop_view_dots_disable.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\fbb341460d9bfdbf8c88f249bc70acd9\\loopview-1.5.5\\res\\drawable\\loop_view_dots_disable.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_dialog_close.png",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\016cf9d65ebf28faee0dd3922bdbf656\\appupdate-2.4.0\\res\\drawable\\ic_dialog_close.png"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\tv.png",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\tv.png"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\loading.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_next.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\shape_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\_xpopup_round3_bg.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\20267aa5d049fe6c6bf37fedc75ebe95\\xpopup-1.6.7\\res\\drawable\\_xpopup_round3_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\chose_mv_shape_border.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\chose_mv_shape_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\airplayintro.png",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\airplayintro.png"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\bg_button.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\016cf9d65ebf28faee0dd3922bdbf656\\appupdate-2.4.0\\res\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_controller_bottom_gradient.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\shape_controller_bottom_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_expend.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_expend.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\selector_seek_bar_thumb.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\selector_seek_bar_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\input_border.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\input_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_launcher_background.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\bg_white_radius_6.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\016cf9d65ebf28faee0dd3922bdbf656\\appupdate-2.4.0\\res\\drawable\\bg_white_radius_6.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\loop_view_dots_selector.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\fbb341460d9bfdbf8c88f249bc70acd9\\loopview-1.5.5\\res\\drawable\\loop_view_dots_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_unlock.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_unlock.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\cut_down_shap.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\cut_down_shap.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_plus.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\play_center_selector.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\play_center_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\flow_tag_bg.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\common\\build\\intermediates\\packaged_res\\release\\drawable\\flow_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\progressloading.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\32b47e7874d0a7dbf599e668d9f72bc8\\xrecyclerview-1.5.9\\res\\drawable\\progressloading.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\chose_mv_shape_border_selected.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\chose_mv_shape_border_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\chose_selector.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\chose_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\loop_view_dots_enable.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\fbb341460d9bfdbf8c88f249bc70acd9\\loopview-1.5.5\\res\\drawable\\loop_view_dots_enable.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_device.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_dialog_default.png",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\016cf9d65ebf28faee0dd3922bdbf656\\appupdate-2.4.0\\res\\drawable\\ic_dialog_default.png"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_next_1.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_next_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\bg_frame.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\997aa0622cbf5c70952a729a0a5c7bd6\\FlowLayout-v1.5\\res\\drawable\\bg_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\style_video_player_video_seekbar.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\style_video_player_video_seekbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_rss_connect_statu_disconnect.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_rss_connect_statu_disconnect.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_left_pause.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_left_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\player_battery_level.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\player_battery_level.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\\support-compat-28.0.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\5a398410c0aec4165f481ef32dd899c9\\design-26.0.0\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_close_black_24dp.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_close_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_left_back.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_left_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\video_lock.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\video_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_left_back_dark.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_left_back_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_rss_connect_statu_connect.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_rss_connect_statu_connect.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\ic_lock.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\shape_controller_top_gradient.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\shape_controller_top_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\dlan_statu_selector.xml",
+        "source": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\src\\main\\res\\drawable\\dlan_statu_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\ee kinds\\IdeaProjects\\talentmov-master\\talentmov-master\\modules\\playerlib\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\ee kinds\\.gradle\\caches\\transforms-2\\files-2.1\\aaffe2c7f23d715ca045db9d0a51d031\\appcompat-v7-28.0.0\\res\\drawable\\abc_vector_test.xml"
+    }
+]
