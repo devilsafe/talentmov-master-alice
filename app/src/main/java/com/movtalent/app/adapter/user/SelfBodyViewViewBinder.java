@@ -108,13 +108,13 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
             selfFavor = itemView.findViewById(R.id.self_favor);
             selfHistory = itemView.findViewById(R.id.self_his);
             selfDown = itemView.findViewById(R.id.self_down);
-            selfReport = itemView.findViewById(R.id.self_report);
+//            selfReport = itemView.findViewById(R.id.self_report);
             selfCearCache = itemView.findViewById(R.id.self_clear_cache);
-            selfQQ = itemView.findViewById(R.id.self_qqgroup);
-            selfShare = itemView.findViewById(R.id.self_share);
+//            selfQQ = itemView.findViewById(R.id.self_qqgroup);
+//            selfShare = itemView.findViewById(R.id.self_share);
             selfJump1 = itemView.findViewById(R.id.self_jump1);
-            selfJump2 = itemView.findViewById(R.id.self_jump2);
-            selfJump3 = itemView.findViewById(R.id.self_jump3);
+//            selfJump2 = itemView.findViewById(R.id.self_jump2);
+//            selfJump3 = itemView.findViewById(R.id.self_jump3);
         }
 
     }
