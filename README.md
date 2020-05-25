@@ -5,20 +5,22 @@
 
 后端就是网站部分 
 路径 app/cms/src/app/Api
- 
+后台的api接口在我个人的网站中，有需要的可以到网站下载。
+也可以在github获取地址是：
+https://github.com/devilsafe/jdziapp_appcms
+
 Mov.php 这个文件内 修改
-
-public function checkUpdate()
-{
-        $update = array(
-                "versionCode" => 101,
-                "updateMsg" =>"1.优化投屏播放及交互，欢迎体验。\n",
-                "downloadUrl" =>"http://123.207.150.253/apk/BTMovie_1.6.3.apk",
-                "isForce" => true,
-                "version" =>"1.6.3");
-        return $update;
+/**
+public function checkUpdate(){
+    $update = array(
+            "versionCode" => 101,
+            "updateMsg" =>"1.优化投屏播放及交互，欢迎体验。\n",
+            "downloadUrl" =>"http://123.207.150.253/apk/BTMovie_1.6.3.apk",
+            "isForce" => true,
+            "version" =>"1.6.3");
+    return $update;
 }
-
+/**
 "versionCode" => 101,   这个101就是新的APK内的版本号 比如没升级的apk是100 
 如果你要升级就要先在这个地方写101
 
