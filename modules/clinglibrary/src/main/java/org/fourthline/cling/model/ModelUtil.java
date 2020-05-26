@@ -29,10 +29,6 @@ import java.util.Locale;
  */
 public class ModelUtil {
 
-    /**
-     * True if this class is executing on an Android runtime
-     */
-    final public static boolean ANDROID_RUNTIME;
     static {
         boolean foundAndroid = false;
         try {
@@ -43,6 +39,10 @@ public class ModelUtil {
         }
         ANDROID_RUNTIME = foundAndroid;
     }
+    /**
+     * True if this class is executing on an Android runtime
+     */
+    final public static boolean ANDROID_RUNTIME;
 
     /**
      * True if this class is executing on an Android emulator runtime.
@@ -113,7 +113,7 @@ public class ModelUtil {
      */
     public static String toCommaSeparatedList(Object[] o, boolean escapeCommas, boolean escapeDoubleQuotes) {
         if (o == null) {
-            return "";
+            return "toCommaSeparatedList=0";
         }
         StringBuilder sb = new StringBuilder();
         for (Object obj : o) {
@@ -226,7 +226,7 @@ public class ModelUtil {
 
         } catch (Exception ex) {
             // Return a dummy String
-            return "UNKNOWN HOST";
+            return "UNKNOWN HOST~~~~~~~~~~~~";
         }
     }
 

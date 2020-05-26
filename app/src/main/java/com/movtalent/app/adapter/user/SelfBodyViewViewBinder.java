@@ -47,7 +47,7 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
         });
         holder.selfHistory.setOnClickListener(v -> AllHistoryActivity.startTo(v.getContext()));
         holder.selfDown.setOnClickListener(v -> AllDownLoadActivity.startTo(v.getContext()));
-        holder.selfReport.setOnClickListener(v -> ReportActivitys.start(v.getContext()));
+//        holder.selfReport.setOnClickListener(v -> ReportActivitys.start(v.getContext()));
         holder.selfCearCache.setOnClickListener(v -> {
           new XPopup.Builder(holder.itemView.getContext()).asConfirm("提示！", "清空缓存后，图片缓存及登录状态将被清除，下载和浏览记录不会被清除。", new OnConfirmListener() {
               @Override
@@ -58,13 +58,13 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
               }
           }).show();
         });
-        holder.selfQQ.setOnClickListener(v -> new XPopup.Builder(v.getContext()).asConfirm("提示", "欢迎加入qq群： 682499902", () -> {
-        }).show());
-        holder.selfShare.setOnClickListener(v -> {
-            final Bitmap thumbBmp = ((BitmapDrawable) v.getContext().getResources().getDrawable(R.drawable.share)).getBitmap();
-            ShareContent mShareContent = new ShareContentPic(thumbBmp);
-            new XPopup.Builder(v.getContext()).asCustom(new BottomShareView(v.getContext(), mShareContent)).show();
-        });
+//        holder.selfQQ.setOnClickListener(v -> new XPopup.Builder(v.getContext()).asConfirm("提示", "欢迎加入qq群： 682499902", () -> {
+//        }).show());
+//        holder.selfShare.setOnClickListener(v -> {
+//            final Bitmap thumbBmp = ((BitmapDrawable) v.getContext().getResources().getDrawable(R.drawable.share)).getBitmap();
+//            ShareContent mShareContent = new ShareContentPic(thumbBmp);
+//            new XPopup.Builder(v.getContext()).asCustom(new BottomShareView(v.getContext(), mShareContent)).show();
+//        });
 
         //预留1点击
         holder.selfJump1.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +74,7 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
             }
         });
         //预留2点击
-        holder.selfJump2.setOnClickListener(new View.OnClickListener() {
+        /*holder.selfJump2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 WebDetailActivity.start(v.getContext(), App_Config.JUMP_URL_2);
@@ -86,7 +86,7 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
             public void onClick(View v) {
                 WebDetailActivity.start(v.getContext(), App_Config.JUMP_URL_3);
             }
-        });
+        });*/
     }
 
 
@@ -99,8 +99,8 @@ public class SelfBodyViewViewBinder extends ItemViewBinder<SelfBodyView, SelfBod
         TextView selfQQ;
         TextView selfShare;
         TextView selfJump1;
-        TextView selfJump2;
-        TextView selfJump3;
+//        TextView selfJump2;
+//        TextView selfJump3;
 
         ViewHolder(View itemView) {
             super(itemView);
