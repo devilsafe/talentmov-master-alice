@@ -17,7 +17,7 @@ public class App_Config {
     /**
      * 主分类配置，不建议修改
      */
-    public static final String[] TAB_ARR = {"推荐", "电影", "电视剧", "动漫", "综艺"};
+    public static final String[] TAB_ARR = {"推荐", "电视剧", "电影", "动漫", "综艺"};
 
 
     /**
@@ -117,8 +117,8 @@ public class App_Config {
             "其他",
             "海外"
     };
-
-    public static final String JUMP_URL_3 = "http://www.baidu.com";
-    public static final String JUMP_URL_2 = "http://www.baidu.com";
+//
+//    public static final String JUMP_URL_3 = "http://www.baidu.com";
+//    public static final String JUMP_URL_2 = "http://www.baidu.com";
     public static final String JUMP_URL_1 = "http://www.baidu.com";
 }

@@ -209,6 +209,8 @@ public class OnlineDetailPageActivity extends AppCompatActivity implements IDeta
         DetailPlaySection section = new DetailPlaySection(groupPlay, commonVideoVo, new OnSeriClickListener() {
             @Override
             public void switchPlay(String url, int index, int groupIndex) {
+                String add = "http://194.58.119.183/apiplayer/?url=";
+                url = add +url;
                 Log.d(TAG, "loadSeri: " + url);
                 playerPresenter.switchPlayFirst(OnlineDetailPageActivity.this, videoContainer,url,index);
                 groupPlay = groupIndex;

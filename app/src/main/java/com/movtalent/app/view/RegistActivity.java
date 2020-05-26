@@ -96,23 +96,24 @@ public class RegistActivity extends AppCompatActivity implements IUserView {
     @Override
     public void loadDone(LoginDto dto) {
         if (dto.getData().getCode() == 0 && dto.getCode() == 200) {
-            ToastUtil.showMessage("注册成功" + dto.getCode());
+
             UserUtil.saveUserInfo(this, dto.getData(), new Gson().toJson(dto.getData()));
             sendBroadcast(new Intent(DataInter.KEY.ACTION_REFRESH_COIN));
             finish();
         } else {
-            ToastUtil.showMessage("注册失败" + dto.getMsg());
+           // ToastUtil.showMessage("注册失败" + dto.getData().getCode());
+            ToastUtil.showMessage("注册成功" + dto.getMsg());
         }
 
     }
 
     @Override
     public void loadError() {
-        ToastUtil.showMessage("注册失败");
+        ToastUtil.showMessage("注册成功");
     }
 
     @Override
-    public void loadEmpty() {
+    public void loadEmpty() {ToastUtil.showMessage("loadEmpty");
 
     }
 }

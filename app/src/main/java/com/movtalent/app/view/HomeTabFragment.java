@@ -170,7 +170,7 @@ public class HomeTabFragment extends Fragment implements IHomeView {
             adapter.setItems(items);
             adapter.notifyDataSetChanged();
         } else {
-            Toast.makeText(getContext(), "数据加载失败，请稍后重试", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "数据加载失败，请稍后重试", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -197,7 +197,7 @@ public class HomeTabFragment extends Fragment implements IHomeView {
 
     @Override
     public void loadError() {
-        Toast.makeText(getContext(), "数据加载失败，请稍后重试", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getContext(), "数据加载失败，请稍后重试", Toast.LENGTH_SHORT).show();
         statusLayoutManager.showErrorLayout();
     }
 
