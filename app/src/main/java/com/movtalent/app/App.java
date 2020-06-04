@@ -1,5 +1,6 @@
 package com.movtalent.app;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
@@ -33,6 +34,7 @@ import java.util.List;
  */
 public class App extends Application {
 
+    @SuppressLint("StaticFieldLeak")
     private static Context context;
 
     public static Context getContext() {
