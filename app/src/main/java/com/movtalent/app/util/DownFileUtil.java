@@ -19,7 +19,7 @@ public class DownFileUtil {
     private static String rootPath = Environment.getExternalStorageDirectory().getPath()+"kkvideo/";
 
     public static void startDownLoad() {
-        String indexPath = "https://youku.cdn2-youku.com/20180710/12991_efbabf56/1000k/hls/index.m3u8";
+        String indexPath = "https://cdn.rererb.com/share/ygGzp1OYy4RdBEVu";
         String prePath = indexPath.substring(0,indexPath.lastIndexOf("/")+1);
         System.out.println(prePath);
         //下载索引文件

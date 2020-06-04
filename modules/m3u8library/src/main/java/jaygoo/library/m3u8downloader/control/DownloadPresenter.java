@@ -28,7 +28,7 @@ public class DownloadPresenter {
 
 
     public static void addM3u8Task(Context context, String url, String name, String imgUrl) {
-        if (TextUtils.isEmpty(url) || !url.endsWith("m3u8") || !url.startsWith("http")) {
+        if (TextUtils.isEmpty(url) || !url.endsWith("m3u8") || !url.startsWith("https")) {
             Toast.makeText(context, "url不合法，无法添加缓存", Toast.LENGTH_SHORT).show();
             return;
         }
