@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.UserProfileActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             ></activity>
 
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             ></activity>
 
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.TransparentA"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,58 +31,58 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.AllLevelActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
 
         <activity android:name=".view.CoinShopActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             /> <!-- 趣米的广告结束 -->
         <activity android:name=".view.WebDetailActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.ReQuestFilmActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.ReportActivitys"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.AllDownLoadActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.SettingActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.LoginActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.RegistActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.AllHistoryActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.AllFavorActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.AboutUsActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.SearchActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.CastDescriptionnActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".view.AllSubjectActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity android:name=".category.CategoryActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             />
         <activity
             android:name=".view.OnlineDetailPageActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:theme="@style/Theme.TransparentA" />
         <provider
             android:name="android.support.v4.content.FileProvider"
