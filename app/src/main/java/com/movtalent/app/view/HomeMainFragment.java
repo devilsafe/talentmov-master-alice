@@ -46,8 +46,8 @@ public class HomeMainFragment extends Fragment {
     @BindView(R.id.tab_vp)
     ViewPager tabVp;
     Unbinder unbinder;
-    @BindView(R.id.self_favor)
-    ImageView selfFavor;
+//    @BindView(R.id.self_favor)
+//    ImageView selfFavor;
 
 
     public static HomeMainFragment getInstance(VideoTypeVo videoTypeVo) {
@@ -148,9 +148,9 @@ public class HomeMainFragment extends Fragment {
         tablayout.setViewPager(tabVp);
 
         history.setOnClickListener(v -> AllHistoryActivity.startTo(getContext()));
-        selfFavor.setOnClickListener(v -> {
-            CategoryActivity.start(getActivity());
-        });
+//        selfFavor.setOnClickListener(v -> {
+//            CategoryActivity.start(getActivity());
+//        });
     }
 
     @Override
