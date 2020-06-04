@@ -12,7 +12,7 @@ public class App_Config {
     /**
      * 服务器所有请求依赖的主域名，为cms接口系统安装的地址
      */
-    public static final String BASE_URL = "http://194.58.119.183/";
+    public static final String BASE_URL = "http://192.168.1.104/";
 
     /**
      * 主分类配置，不建议修改
