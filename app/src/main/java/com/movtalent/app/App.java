@@ -47,20 +47,20 @@ public class App extends Application {
         SpiderMan.init(this).setTheme(R.style.SpiderManTheme_Dark);
         //初始化友盟统计、推送
         //初始化友盟统计
-        UMConfigure.init(this, App_Config.UMENKEY, App_Config.UMEN_APP_NAME, UMConfigure.DEVICE_TYPE_PHONE, App_Config.UMEN_PUSH_KEY);
-        PushAgent mPushAgent = PushAgent.getInstance(this);
-        mPushAgent.register(new IUmengRegisterCallback() {
-            @Override
-            public void onSuccess(String s) {
-                Log.e("umentregist","注册成功：deviceToken：-------->  " + s);
-            }
-
-            @Override
-            public void onFailure(String s, String s1) {
-                Log.e("umentregist","注册失败：deviceTokens：-------->  " + s);
-            }
-        });
-        mPushAgent.setMessageHandler(messageHandler);
+//        UMConfigure.init(this, App_Config.UMENKEY, App_Config.UMEN_APP_NAME, UMConfigure.DEVICE_TYPE_PHONE, App_Config.UMEN_PUSH_KEY);
+//        PushAgent mPushAgent = PushAgent.getInstance(this);
+//        mPushAgent.register(new IUmengRegisterCallback() {
+//            @Override
+//            public void onSuccess(String s) {
+//                Log.e("umentregist","注册成功：deviceToken：-------->  " + s);
+//            }
+//
+//            @Override
+//            public void onFailure(String s, String s1) {
+//                Log.e("umentregist","注册失败：deviceTokens：-------->  " + s);
+//            }
+//        });
+//        mPushAgent.setMessageHandler(messageHandler);
 
         if (isRunningInMainProcess()){
 
@@ -119,26 +119,26 @@ public class App extends Application {
         return false;
     }
 
-    UmengMessageHandler messageHandler = new UmengMessageHandler(){
-
-        @Override
-        public void dealWithCustomMessage(final Context context, final UMessage msg) {
-            new Handler(getMainLooper()).post(new Runnable() {
-
-                @Override
-                public void run() {
-                    // 对于自定义消息，PushSDK默认只统计送达。若开发者需要统计点击和忽略，则需手动调用统计方法。
-                    boolean isClickOrDismissed = true;
-                    if(isClickOrDismissed) {
-                        //自定义消息的点击统计
-                        UTrack.getInstance(getApplicationContext()).trackMsgClick(msg);
-                    } else {
-                        //自定义消息的忽略统计
-                        UTrack.getInstance(getApplicationContext()).trackMsgDismissed(msg);
-                    }
-                    Toast.makeText(context, msg.custom, Toast.LENGTH_LONG).show();
-                }
-            });
-        }
-    };
+//    UmengMessageHandler messageHandler = new UmengMessageHandler(){
+//
+//        @Override
+//        public void dealWithCustomMessage(final Context context, final UMessage msg) {
+//            new Handler(getMainLooper()).post(new Runnable() {
+//
+//                @Override
+//                public void run() {
+//                    // 对于自定义消息，PushSDK默认只统计送达。若开发者需要统计点击和忽略，则需手动调用统计方法。
+//                    boolean isClickOrDismissed = true;
+//                    if(isClickOrDismissed) {
+//                        //自定义消息的点击统计
+//                        UTrack.getInstance(getApplicationContext()).trackMsgClick(msg);
+//                    } else {
+//                        //自定义消息的忽略统计
+//                        UTrack.getInstance(getApplicationContext()).trackMsgDismissed(msg);
+//                    }
+//                    Toast.makeText(context, msg.custom, Toast.LENGTH_LONG).show();
+//                }
+//            });
+//        }
+//    };
 }
