@@ -37,7 +37,7 @@ public class M3U8DownloaderConfig {
     }
 
     public M3U8DownloaderConfig setThreadCount(int threadCount){
-        if (threadCount > 5) threadCount = 5;
+        if (threadCount > 5) threadCount = 1;
         if (threadCount <= 0) threadCount = 1;
         SPHelper.putInt(TAG_THREAD_COUNT, threadCount);
         return this;
