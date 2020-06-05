@@ -50,7 +50,7 @@ public class HomeActivity extends AppCompatActivity {
     EasyNavigationBar navigationBar;
     @BindView(R.id.container)
     ConstraintLayout container;
-    private String[] tabText = {"热点", "专题", "分享", "我的"};
+    private String[] tabText = {"热点", "专题","分享", "我的"};
     //未选中icon
     private int[] normalIcon = {R.drawable.ic_shouye_u, R.drawable.ic_topics_u, R.drawable.ic_shares_u, R.drawable.ic_selfs_u};
     //选中时icon

@@ -67,7 +67,7 @@ public class SplashActivity extends AppCompatActivity implements ITypeView {
 
         }, 2000);
 
-        RxCountDown.countdown(5)
+        RxCountDown.countdown(3)
                 .doOnSubscribe(disposable -> {
                 })
                 .subscribe(integer -> {
