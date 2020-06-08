@@ -28,15 +28,15 @@
         android:id="@+id/time_cut"
         android:textColor="#ffffff"/>
     <TextView
-        android:id="@+id/desc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:text="发现好看的电影，精彩每日更新"
-        android:textColor="#494B4B"
-        android:textSize="10sp" />
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:text="非洲土狼永久地址--微信公众号：非洲土狼李大康  www.518915.com"
+            android:textColor="#494B4B"
+            android:textSize="12sp"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginBottom="6dp"
-            android:text="阿离影视"
+            android:text=""
             android:textColor="#494B4B"
             android:textSize="14sp" />
     </LinearLayout>
