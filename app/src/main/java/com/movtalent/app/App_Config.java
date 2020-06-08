@@ -13,25 +13,25 @@ public class App_Config {
      * 服务器所有请求依赖的主域名，为cms接口系统安装的地址
      */
     public static final String BASE_URL = "http://192.168.1.104/";
-
+//    public static final String BASE_URL = "http://194.58.119.183/";
     /**
      * 主分类配置，不建议修改
      */
     public static final String[] TAB_ARR = {"推荐", "电视剧", "电影", "动漫", "综艺"};
 
-
-    /**
-     * 友盟统计key
-     */
-    public static final String UMENKEY = "5db8f7ca0cafb294cd000838";
-    /**
-     * 友盟统计app渠道名
-     */
-    public static final String UMEN_APP_NAME = "movtalent";
-    /**
-     * 友盟推送app key
-     */
-    public static final String UMEN_PUSH_KEY = "4b3893e95500500c2c2f88069e56da0c";
+//
+//    /**
+//     * 友盟统计key
+//     */
+//    public static final String UMENKEY = "5db8f7ca0cafb294cd000838";
+//    /**
+//     * 友盟统计app渠道名
+//     */
+//    public static final String UMEN_APP_NAME = "movtalent";
+//    /**
+//     * 友盟推送app key
+//     */
+//    public static final String UMEN_PUSH_KEY = "4b3893e95500500c2c2f88069e56da0c";
 
 
     /**
@@ -117,8 +117,8 @@ public class App_Config {
             "其他",
             "海外"
     };
-//
+
 //    public static final String JUMP_URL_3 = "http://www.baidu.com";
 //    public static final String JUMP_URL_2 = "http://www.baidu.com";
-    public static final String JUMP_URL_1 = "http://www.baidu.com";
+    public static final String JUMP_URL_1 = "https://www.518915.com";
 }
