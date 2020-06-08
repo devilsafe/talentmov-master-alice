@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.movtalent.app">
+          xmlns:tools="http://schemas.android.com/tools" package="com.movtalent.app">
 
     <application
         android:name=".App"
@@ -22,8 +22,8 @@
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.TransparentA"
-            android:screenOrientation="fullSensor"
-            >
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,58 +31,59 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.AllLevelActivity"
-            android:screenOrientation="fullSensor"
-            />
+            android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
 
         <activity android:name=".view.CoinShopActivity"
-            android:screenOrientation="fullSensor"
-            /> <!-- 趣米的广告结束 -->
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/><!-- 趣米的广告结束 -->
         <activity android:name=".view.WebDetailActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.ReQuestFilmActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.ReportActivitys"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.AllDownLoadActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.SettingActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.LoginActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.RegistActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.AllHistoryActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.AllFavorActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.AboutUsActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.SearchActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".view.CastDescriptionnActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>>
         <activity android:name=".view.AllSubjectActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity android:name=".category.CategoryActivity"
-            android:screenOrientation="fullSensor"
-            />
+                  android:screenOrientation="portrait"
+                  tools:ignore="LockedOrientationActivity"/>
         <activity
             android:name=".view.OnlineDetailPageActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:screenOrientation="fullSensor"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
             android:theme="@style/Theme.TransparentA" />
         <provider
             android:name="android.support.v4.content.FileProvider"
