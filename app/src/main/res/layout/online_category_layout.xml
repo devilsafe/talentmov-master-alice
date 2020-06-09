@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:fitsSystemWindows="true"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     xmlns:tools="http://schemas.android.com/tools"
+                                                     android:layout_width="match_parent"
+                                                     android:fitsSystemWindows="true"
+                                                     android:layout_height="match_parent"
+                                                     android:orientation="vertical">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         app:contentScrim="@android:color/transparent"
         app:elevation="0dp">
 
-        <android.support.design.widget.CollapsingToolbarLayout
+        <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -39,31 +39,31 @@
                 app:layout_collapseParallaxMultiplier="0.7">
 
                 <!--大的分类，电影，剧集，动漫，综艺-->
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/main_cat_tab"
                     android:layout_width="match_parent"
                     android:layout_height="40dp" />
                 <!--大分类下的类别-->
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/type_cat_tab"
                     android:layout_width="match_parent"
                     android:layout_height="40dp" />
                 <!--地区分类-->
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/area_cat_tab"
                     android:layout_width="match_parent"
                     android:layout_height="40dp" />
                 <!--年代分类-->
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/year_cat_tab"
                     android:layout_width="match_parent"
                     android:layout_height="40dp" />
             </LinearLayout>
 
 
-        </android.support.design.widget.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <FrameLayout
@@ -72,7 +72,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbars"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -116,5 +116,5 @@
                 android:visibility="invisible"
                 tools:text="测试" />
         </RelativeLayout>
-    </android.support.v7.widget.Toolbar>
-</android.support.design.widget.CoordinatorLayout>
+    </androidx.appcompat.widget.Toolbar>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -11,7 +11,7 @@
         android:layout_height="160dp"/>
     <include layout="@layout/tool_bar_layout"/>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -77,7 +77,7 @@
 
         </RelativeLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <com.antiless.support.widget.TabLayout
         android:id="@+id/tablayout"
@@ -94,13 +94,13 @@
         app:tabTextAppearance="@style/CustomTablayoutTextAppearance3"
         app:tabTextColor="@color/title_gray_color"
         />
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/tab_vp"
         android:layout_below="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </android.support.v4.view.ViewPager>
+    </androidx.viewpager.widget.ViewPager>
 
 
 </RelativeLayout>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="130dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginLeft="10dp"
-    android:layout_marginBottom="20dp"
-    android:layout_marginRight="10dp"
-    app:cardCornerRadius="4dp"
-    android:background="@drawable/user_head_section">
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="130dp"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_marginLeft="10dp"
+                                   android:layout_marginBottom="20dp"
+                                   android:layout_marginRight="10dp"
+                                   app:cardCornerRadius="4dp"
+                                   android:background="@drawable/user_head_section">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -104,4 +104,4 @@
             android:textColor="#9C9B9B"
             android:textSize="10sp" />
     </RelativeLayout>
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>

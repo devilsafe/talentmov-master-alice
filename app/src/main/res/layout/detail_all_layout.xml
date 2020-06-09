@@ -39,7 +39,7 @@
        android:textSize="16sp"
        android:id="@+id/close"
        />
-   <android.support.v4.widget.NestedScrollView
+   <androidx.core.widget.NestedScrollView
        android:layout_width="match_parent"
        android:scrollbars="none"
        android:layout_below="@id/title"
@@ -54,6 +54,6 @@
           android:layout_width="match_parent"
           android:textColor="@color/dark_colorPrimaryDark"
           android:layout_height="match_parent"/>
-   </android.support.v4.widget.NestedScrollView>
+   </androidx.core.widget.NestedScrollView>
 
 </RelativeLayout>
