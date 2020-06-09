@@ -117,8 +117,5 @@ public class App_Config {
             "其他",
             "海外"
     };
-
-//    public static final String JUMP_URL_3 = "http://www.baidu.com";
-//    public static final String JUMP_URL_2 = "http://www.baidu.com";
     public static final String JUMP_URL_1 = "https://www.518915.com";
 }
