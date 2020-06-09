@@ -2,7 +2,7 @@ package com.movtalent.app.view;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
