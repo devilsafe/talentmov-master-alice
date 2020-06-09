@@ -7,10 +7,10 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.Window;
@@ -50,7 +50,7 @@ public class HomeActivity extends AppCompatActivity {
     EasyNavigationBar navigationBar;
     @BindView(R.id.container)
     ConstraintLayout container;
-    private String[] tabText = {"热点", "专题","分享", "我的"};
+    private String[] tabText = {"热点", "专辑","分享", "我的"};
     //未选中icon
     private int[] normalIcon = {R.drawable.ic_shouye_u, R.drawable.ic_topics_u, R.drawable.ic_shares_u, R.drawable.ic_selfs_u};
     //选中时icon
