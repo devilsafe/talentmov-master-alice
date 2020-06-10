@@ -20,6 +20,9 @@ allprojects {
         maven { url 'https://jitpack.io' }
         google()
         jcenter()
+        flatDir {
+            dirs 'libs'
+        }
         //友盟
         maven { url 'https://dl.bintray.com/umsdk/release' }
         //第三方登录分享
