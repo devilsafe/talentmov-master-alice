@@ -1,10 +1,8 @@
 package com.movtalent.app.adapter.user;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,9 +15,6 @@ import com.movtalent.app.App_Config;
 import com.movtalent.app.R;
 import com.movtalent.app.util.UserUtil;
 import com.movtalent.app.view.*;
-import com.movtalent.app.view.dialog.BottomShareView;
-import kale.sharelogin.content.ShareContent;
-import kale.sharelogin.content.ShareContentPic;
 import me.drakeet.multitype.ItemViewBinder;
 
 /**
