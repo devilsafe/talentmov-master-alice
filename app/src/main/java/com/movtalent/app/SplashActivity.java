@@ -3,7 +3,7 @@ package com.movtalent.app;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.WindowManager;
@@ -22,7 +22,7 @@ import com.movtalent.app.http.UrlConfig;
 import com.movtalent.app.model.vo.VideoTypeVo;
 import com.movtalent.app.presenter.SplashPresenter;
 import com.movtalent.app.presenter.iview.ITypeView;
-import com.movtalent.app.util.ToastUtil;
+
 
 /**
  * @author huangyong
