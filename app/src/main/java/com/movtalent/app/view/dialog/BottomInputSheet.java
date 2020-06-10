@@ -18,8 +18,8 @@ import com.movtalent.app.util.ToastUtil;
 public class BottomInputSheet extends BottomPopupView {
 
     private EditText editText;
-    private OnPublishListener onPublishListener;
-    private CommentVo commentVo;
+    private final OnPublishListener onPublishListener;
+    private final CommentVo commentVo;
 
     public BottomInputSheet(@NonNull Context context, CommentVo commentVo, OnPublishListener onPublishListener) {
         super(context);

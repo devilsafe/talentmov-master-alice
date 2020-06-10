@@ -7,9 +7,9 @@ package com.movtalent.app.adapter.vip;
  */
 public class VipShareItemSectionn {
 
-    private String vipShareContent;
-    private String vipShareTitle;
-    private int vipShareIcon;
+    private final String vipShareContent;
+    private final String vipShareTitle;
+    private final int vipShareIcon;
 
     public String getVipShareTitle() {
         return vipShareTitle;
@@ -27,7 +27,7 @@ public class VipShareItemSectionn {
         return vipShareClickListener;
     }
 
-    private VipShareItemSectionnViewBinder.VipShareClickListener vipShareClickListener;
+    private final VipShareItemSectionnViewBinder.VipShareClickListener vipShareClickListener;
 
     public VipShareItemSectionn(String vipShareTitle,int vipShareIcon,String vipShareContent, VipShareItemSectionnViewBinder.VipShareClickListener vipShareClickListener) {
         this.vipShareTitle = vipShareTitle;

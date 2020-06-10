@@ -6,13 +6,13 @@ package com.movtalent.app.adapter;
  */
 public class SubjectEntity {
 
-    private String subJectName;
+    private final String subJectName;
 
-    private String subJectNameSub;
+    private final String subJectNameSub;
 
-    private String posterUrl;
+    private final String posterUrl;
 
-    private int topId;
+    private final int topId;
 
     public SubjectEntity(String subJectName, String posterUrl, int topId, String subJectNameSub) {
         this.subJectName = subJectName;

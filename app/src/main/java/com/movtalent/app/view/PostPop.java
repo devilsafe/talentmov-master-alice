@@ -16,7 +16,7 @@ public class PostPop extends CenterPopupView {
 
     private TextView postTitle;
     private TextView content;
-    private PostDto dto;
+    private final PostDto dto;
 
     public PostPop(@NonNull Context context, PostDto dto) {
         super(context);

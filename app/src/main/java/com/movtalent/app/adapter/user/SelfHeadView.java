@@ -15,7 +15,7 @@ public class SelfHeadView {
         return onloginListener;
     }
 
-    private SelfHeadViewViewBinder.OnloginListener onloginListener;
+    private final SelfHeadViewViewBinder.OnloginListener onloginListener;
 
     public String getUserIcon() {
         return userIcon;

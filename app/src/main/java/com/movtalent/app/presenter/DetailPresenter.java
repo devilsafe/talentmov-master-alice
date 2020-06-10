@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class DetailPresenter {
 
-    private IDetailView iDetailView;
+    private final IDetailView iDetailView;
 
     public DetailPresenter(IDetailView iDetailView) {
         this.iDetailView = iDetailView;

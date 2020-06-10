@@ -11,7 +11,7 @@ import com.movtalent.app.model.dto.PostDto;
 public class PublishPresenter {
 
 
-    private IPost iPost;
+    private final IPost iPost;
 
     public PublishPresenter(IPost iPost) {
         this.iPost = iPost;

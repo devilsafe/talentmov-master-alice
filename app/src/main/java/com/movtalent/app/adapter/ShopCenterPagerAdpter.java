@@ -17,9 +17,9 @@ import java.util.List;
 public class ShopCenterPagerAdpter extends FragmentPagerAdapter {
 
 
-    private Context context;
-    private List<Fragment> listfragment;
-    private String[] tile = {"兑换会员","兑换记录"};
+    private final Context context;
+    private final List<Fragment> listfragment;
+    private final String[] tile = {"兑换会员","兑换记录"};
 
     public ShopCenterPagerAdpter(FragmentManager fm, List<Fragment> listfragment, Activity activity) {
         super(fm);

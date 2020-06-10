@@ -19,8 +19,8 @@ import java.util.HashMap;
  */
 public class ReportPresenter {
 
-    private Context context;
-    private IReport iReport;
+    private final Context context;
+    private final IReport iReport;
 
     public ReportPresenter(Context context, IReport iReport) {
         this.context = context;

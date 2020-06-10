@@ -6,7 +6,7 @@ package com.movtalent.app.adapter.setting;
  */
 public class TextItemSection {
 
-    private String itemText;
+    private final String itemText;
 
     public String getItemText() {
         return itemText;
@@ -16,7 +16,7 @@ public class TextItemSection {
         return clickListenr;
     }
 
-    private TextItemSectionViewBinder.OnItemClickListenr clickListenr;
+    private final TextItemSectionViewBinder.OnItemClickListenr clickListenr;
 
     public TextItemSection(String itemText, TextItemSectionViewBinder.OnItemClickListenr clickListenr) {
         this.itemText = itemText;

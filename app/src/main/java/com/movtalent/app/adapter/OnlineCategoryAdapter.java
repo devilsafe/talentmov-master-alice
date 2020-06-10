@@ -26,8 +26,8 @@ import java.util.Date;
  */
 
 public class OnlineCategoryAdapter extends RecyclerView.Adapter {
-    private Context context;
-    private ArrayList<CommonVideoVo> datas;
+    private final Context context;
+    private final ArrayList<CommonVideoVo> datas;
     private int isMV;
     private final String time;
     private final Gson gson;

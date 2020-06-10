@@ -16,7 +16,7 @@ import com.movtalent.app.presenter.iview.ITypeView;
  * createTime 2019-09-14
  */
 public class SplashPresenter {
-    private ITypeView iTypeView;
+    private final ITypeView iTypeView;
 
     public SplashPresenter(ITypeView iTypeView) {
         this.iTypeView = iTypeView;

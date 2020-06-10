@@ -14,7 +14,7 @@ import com.movtalent.app.presenter.iview.IHomeView;
  */
 public class CategoryPresenter {
 
-    private IHomeView iHomeView;
+    private final IHomeView iHomeView;
 
     public CategoryPresenter(IHomeView iHomeView) {
         this.iHomeView = iHomeView;

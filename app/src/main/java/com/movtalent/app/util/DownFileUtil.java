@@ -4,6 +4,7 @@ import android.os.Environment;
 
 import java.io.*;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.regex.Pattern;
  * createTime 2019-09-26
  */
 public class DownFileUtil {
-    private static String rootPath = Environment.getExternalStorageDirectory().getPath()+"kkvideo/";
+    private static final String rootPath = Environment.getExternalStorageDirectory().getPath()+"kkvideo/";
 
     public static void startDownLoad() {
         String indexPath = "https://cdn.rererb.com/share/ygGzp1OYy4RdBEVu";
@@ -103,12 +104,12 @@ public class DownFileUtil {
 
 
     class downLoadNode extends  Thread{
-        private List<String> list ;
-        private  int start;
-        private  int end;
+        private final List<String> list ;
+        private final int start;
+        private final int end;
         public  HashMap keyFileMap ;
-        private  String preUrlPath ;
-        private  String fileRootPath ;
+        private final String preUrlPath ;
+        private final String fileRootPath ;
 
         public  downLoadNode(List list,int start,int end,HashMap keyFileMap,String preUrlPath,String fileRootPath){
             this.list = list;
@@ -148,7 +149,7 @@ public class DownFileUtil {
         try{
             URL url = new URL(urlpath);
             //下在资源
-            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream(),"UTF-8"));
+            BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream(), StandardCharsets.UTF_8));
             String content = "" ;
             String line;
             while ((line = in.readLine()) != null) {

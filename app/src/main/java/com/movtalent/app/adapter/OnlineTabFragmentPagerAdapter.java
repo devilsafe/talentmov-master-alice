@@ -25,12 +25,12 @@ import java.util.List;
  */
 public class OnlineTabFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private FragmentManager fragmetnmanager;
+    private final FragmentManager fragmetnmanager;
 
     //创建一个List<Fragment>
 
-    private List<MovListFragment> listfragment;
-    private ArrayList<VideoTypeVo.ClassBean> typeIdArray;
+    private final List<MovListFragment> listfragment;
+    private final ArrayList<VideoTypeVo.ClassBean> typeIdArray;
 
     public OnlineTabFragmentPagerAdapter(FragmentManager fm, ArrayList<MovListFragment> list, ArrayList<VideoTypeVo.ClassBean> typeIdArray) {
         super(fm);

@@ -128,11 +128,8 @@ public class NetUtil {
         ConnectivityManager cm = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkINfo = cm.getActiveNetworkInfo();
-        if (networkINfo != null
-                && networkINfo.getType() == ConnectivityManager.TYPE_MOBILE) {
-            return true;
-        }
-        return false;
+        return networkINfo != null
+                && networkINfo.getType() == ConnectivityManager.TYPE_MOBILE;
     }
 
     /**
@@ -144,11 +141,8 @@ public class NetUtil {
         ConnectivityManager cm = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkINfo = cm.getActiveNetworkInfo();
-        if (networkINfo != null
-                && networkINfo.getType() == ConnectivityManager.TYPE_WIFI) {
-            return true;
-        }
-        return false;
+        return networkINfo != null
+                && networkINfo.getType() == ConnectivityManager.TYPE_WIFI;
     }
 
     /**
@@ -219,8 +213,8 @@ public class NetUtil {
         long speed = ((nowTotalRxBytes - lastTotalRxBytes) * 1000 / (nowTimeStamp - lastTimeStamp));//毫秒转换
         lastTimeStamp = nowTimeStamp;
         lastTotalRxBytes = nowTotalRxBytes;
-        if (speed >= 1024) return  String.format("%.2f", speed / (double) 1024).toString() + " M/s";
-        else return String.valueOf(speed) + " K/s";
+        if (speed >= 1024) return  String.format("%.2f", speed / (double) 1024) + " M/s";
+        else return speed + " K/s";
     }
 
     private static long getTotalRxBytes(int uid) {

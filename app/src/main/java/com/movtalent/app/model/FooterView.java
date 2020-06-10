@@ -5,7 +5,7 @@ package com.movtalent.app.model;
  * createTime 2019-09-15
  */
 public class FooterView {
-    private String catName;
+    private final String catName;
 
     public FooterView(String catName) {
         this.catName = catName;

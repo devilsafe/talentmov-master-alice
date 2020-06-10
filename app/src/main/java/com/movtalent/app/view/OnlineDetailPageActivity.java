@@ -87,7 +87,7 @@ import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
  */
 public class OnlineDetailPageActivity extends AppCompatActivity implements IDetailView, IRecView, View.OnClickListener {
     private VideoPlayVo videoPlayVo;
-    private String PathUrl ="";
+    private final String PathUrl ="";
     private int groupPlay = 0;
     @BindView(R.id.video_container)
     FrameLayout videoContainer;
@@ -112,8 +112,7 @@ public class OnlineDetailPageActivity extends AppCompatActivity implements IDeta
     private CommentPresenter commentPresenter;
     private int index;
     private CommonVideoVo videoVo;
-    private ArrayList<String> urls = new ArrayList<>();
-    ;
+    private final ArrayList<String> urls = new ArrayList<>();
     private CommonVideoVo globalVideoVo;
     private final String TAG = "播放页";
 

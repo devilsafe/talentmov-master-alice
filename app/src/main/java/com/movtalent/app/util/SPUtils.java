@@ -15,8 +15,8 @@ import java.util.Map;
  */
 public class SPUtils {
 
-    private SharedPreferences sp;
-    private SharedPreferences.Editor editor;
+    private final SharedPreferences sp;
+    private final SharedPreferences.Editor editor;
 
     /**
      * SPUtils构造函数

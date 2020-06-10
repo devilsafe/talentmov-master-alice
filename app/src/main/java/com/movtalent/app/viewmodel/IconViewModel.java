@@ -15,7 +15,7 @@ import com.movtalent.app.util.UserUtil;
  */
 public class IconViewModel extends ViewModel {
 
-    private MutableLiveData<IconDto> loginResult = new MutableLiveData<>();
+    private final MutableLiveData<IconDto> loginResult = new MutableLiveData<>();
 
 
     public LiveData<IconDto> getIconResult() {

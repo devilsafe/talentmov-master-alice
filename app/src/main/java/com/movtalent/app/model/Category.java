@@ -8,7 +8,7 @@ import android.view.View;
  */
 public class Category {
 
-    private String catName;
+    private final String catName;
 
     public String getCatName() {
         return catName;
@@ -18,7 +18,7 @@ public class Category {
         return clickListener;
     }
 
-    private View.OnClickListener clickListener;
+    private final View.OnClickListener clickListener;
 
     public Category(String catName, View.OnClickListener clickListener) {
         this.catName = catName;

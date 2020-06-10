@@ -40,10 +40,7 @@ public class UserUtil {
 
     public static boolean isLogin() {
 
-        if (TextUtils.isEmpty(getUserToken(App.getContext()))) {
-            return false;
-        }
-        return true;
+        return !TextUtils.isEmpty(getUserToken(App.getContext()));
     }
 
     public static String getUserId() {

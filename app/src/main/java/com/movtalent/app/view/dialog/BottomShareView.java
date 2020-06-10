@@ -27,9 +27,9 @@ import kale.sharelogin.weixin.WeiXinPlatform;
  */
 public class BottomShareView extends BottomPopupView implements View.OnClickListener {
 
-    private Activity activity;
+    private final Activity activity;
     private TextView cancel;
-    private ShareContent shareContent;
+    private final ShareContent shareContent;
 
     public BottomShareView(@NonNull Context context, ShareContent shareContent) {
         super(context);
@@ -86,7 +86,7 @@ public class BottomShareView extends BottomPopupView implements View.OnClickList
     }
 
 
-    private ShareListener shareListener = new ShareListener() {
+    private final ShareListener shareListener = new ShareListener() {
         @Override
         public void onSuccess() {
             super.onSuccess();

@@ -108,7 +108,7 @@ public class SearchActivity extends AppCompatActivity implements ISearch {
         });
     }
 
-    private OnSearchListener onSearchListener = new OnSearchListener() {
+    private final OnSearchListener onSearchListener = new OnSearchListener() {
         @Override
         public void doSearch(String keyWord) {
             if (TextUtils.isEmpty(keyWord)) {

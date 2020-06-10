@@ -6,8 +6,8 @@ package com.movtalent.app.adapter.shop;
  */
 public class PayLogSection {
 
-    private String coinNum;
-    private String payTime;
+    private final String coinNum;
+    private final String payTime;
     public String getCoinNum() {
         return coinNum;
     }
@@ -20,7 +20,7 @@ public class PayLogSection {
         return vipType;
     }
 
-    private String vipType;
+    private final String vipType;
 
     public PayLogSection(String coinNum, String payTime, String vipType) {
         this.coinNum = coinNum;

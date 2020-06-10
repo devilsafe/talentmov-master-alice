@@ -122,7 +122,7 @@ public class MapBuilder {
 
     public static final class Builder<K, V> {
 
-        private Map mMap;
+        private final Map mMap;
         private boolean mUnderConstruction;
 
         private Builder() {

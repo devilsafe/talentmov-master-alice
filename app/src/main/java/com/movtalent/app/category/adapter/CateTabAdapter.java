@@ -42,11 +42,7 @@ public class CateTabAdapter extends RecyclerView.Adapter<CateHolder> {
     @Override
     public void onBindViewHolder(@NonNull CateHolder cateHolder, int i) {
         cateHolder.catTab.setText(data[i]);
-        if (currentIndex == i) {
-            cateHolder.catTab.setSelected(true);
-        } else {
-            cateHolder.catTab.setSelected(false);
-        }
+        cateHolder.catTab.setSelected(currentIndex == i);
         cateHolder.catTab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +60,7 @@ public class CateTabAdapter extends RecyclerView.Adapter<CateHolder> {
         return data == null ? 0 : data.length;
     }
 
-    private OnTabSelected onTabSelected;
+    private final OnTabSelected onTabSelected;
 
     public void setSelected(int i) {
         currentIndex = i;

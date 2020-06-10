@@ -27,7 +27,7 @@ public class ParseWebUrlHelper {
     private String webUrl;
     private Activity mAct;
     private WebView webView;
-    private int timeOut = 20 * 1000;
+    private final int timeOut = 20 * 1000;
     private OnParseWebUrlListener onParseListener;
 
     public static ParseWebUrlHelper getInstance() {
@@ -38,7 +38,7 @@ public class ParseWebUrlHelper {
     public ParseWebUrlHelper init(Activity act, String url) {
         mAct = act;
         webUrl = url;
-        ViewGroup mainView = (ViewGroup) mAct.findViewById(android.R.id.content);
+        ViewGroup mainView = mAct.findViewById(android.R.id.content);
         webView = new WebView(mAct);
         webView.setLayoutParams(new LinearLayout.LayoutParams(1, 1));
         mainView.addView(this.webView);

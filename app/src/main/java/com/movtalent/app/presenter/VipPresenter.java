@@ -15,7 +15,7 @@ import com.movtalent.app.util.UserUtil;
  */
 public class VipPresenter {
 
-    private IVipView iVipView;
+    private final IVipView iVipView;
 
     public VipPresenter(IVipView iVipView) {
         this.iVipView = iVipView;

@@ -33,7 +33,7 @@ public class Jiexi {
 
 
         return this;
-    };
+    }
 
     private List<DBjk> mJklist = new ArrayList<>();
 
@@ -104,7 +104,7 @@ public class Jiexi {
         }
     };
 
-    private Handler handler = new Handler(new Handler.Callback() {
+    private final Handler handler = new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message msg) {
             switch (msg.what){
@@ -136,10 +136,10 @@ public class Jiexi {
 
 
 
-    private int STATE_ING = 1; // 进行中
-    private int STATE_FINISH = 2; // 完成
-    private int STATE_STOP = 3; // 停止
-    private int STATE_ERROR = 4; // 错误
+    private final int STATE_ING = 1; // 进行中
+    private final int STATE_FINISH = 2; // 完成
+    private final int STATE_STOP = 3; // 停止
+    private final int STATE_ERROR = 4; // 错误
 
 
 

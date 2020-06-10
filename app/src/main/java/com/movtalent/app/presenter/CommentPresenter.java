@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * createTime 2019-09-21
  */
 public class CommentPresenter {
-    private ICView icView;
+    private final ICView icView;
 
     public CommentPresenter(ICView icView) {
         this.icView = icView;

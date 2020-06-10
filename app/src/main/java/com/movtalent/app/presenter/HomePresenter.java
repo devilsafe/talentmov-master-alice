@@ -13,7 +13,7 @@ import com.movtalent.app.presenter.iview.IHomeView;
  */
 public class HomePresenter {
 
-    private IHomeView iHomeView;
+    private final IHomeView iHomeView;
 
     public HomePresenter(IHomeView iHomeView) {
         this.iHomeView = iHomeView;

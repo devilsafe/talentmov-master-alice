@@ -15,8 +15,8 @@ import java.util.List;
 public class SelectPagerAdpter extends FragmentPagerAdapter {
 
 
-    private List<Fragment> listfragment;
-    private List<String> titles;
+    private final List<Fragment> listfragment;
+    private final List<String> titles;
 
     public SelectPagerAdpter(FragmentManager fm, List<Fragment> listfragment, List<String> titles) {
         super(fm);

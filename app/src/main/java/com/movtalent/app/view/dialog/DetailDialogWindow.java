@@ -17,7 +17,7 @@ import com.movtalent.app.model.vo.CommonVideoVo;
  */
 public class DetailDialogWindow extends BottomPopupView {
 
-    private CommonVideoVo commonVideoVo;
+    private final CommonVideoVo commonVideoVo;
 
     public DetailDialogWindow(@NonNull Context context, CommonVideoVo commonVideoVo) {
         super(context);

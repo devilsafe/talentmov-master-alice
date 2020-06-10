@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class DetailRecommendPresenter {
 
-    private IRecView iDetailView;
+    private final IRecView iDetailView;
 
     public DetailRecommendPresenter(IRecView iDetailView) {
         this.iDetailView = iDetailView;

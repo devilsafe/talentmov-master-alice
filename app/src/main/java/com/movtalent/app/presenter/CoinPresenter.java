@@ -16,7 +16,7 @@ import com.movtalent.app.util.UserUtil;
  */
 public class CoinPresenter {
 
-    private ICoin iCoin;
+    private final ICoin iCoin;
 
     public CoinPresenter(ICoin iCoin) {
         this.iCoin = iCoin;

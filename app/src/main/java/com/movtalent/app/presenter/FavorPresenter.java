@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 public class FavorPresenter {
 
-    private IFavor iFavor;
+    private final IFavor iFavor;
 
     public FavorPresenter(IFavor iFavor) {
         this.iFavor = iFavor;

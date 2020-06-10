@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * createTime 2019-09-17
  */
 public class RegistPresenter {
-    private IUserView iLoginView;
+    private final IUserView iLoginView;
 
     public RegistPresenter(IUserView iLoginView) {
         this.iLoginView = iLoginView;

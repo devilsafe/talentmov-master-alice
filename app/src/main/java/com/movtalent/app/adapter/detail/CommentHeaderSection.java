@@ -10,7 +10,7 @@ public class CommentHeaderSection {
         return headListener;
     }
 
-    private CommentHeaderSectionViewBinder.OnHeadListener headListener;
+    private final CommentHeaderSectionViewBinder.OnHeadListener headListener;
 
     public CommentHeaderSection(CommentHeaderSectionViewBinder.OnHeadListener headListener) {
         this.headListener = headListener;

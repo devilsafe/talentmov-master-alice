@@ -25,7 +25,7 @@ public class CommentContainerSection {
     private ArrayList<CommentVo> vos;
 
 
-    private CommentContainerSectionViewBinder.OnCommentLoadListener commentLoadListener;
+    private final CommentContainerSectionViewBinder.OnCommentLoadListener commentLoadListener;
 
     public CommentContainerSection(ArrayList<CommentVo> vos, CommentContainerSectionViewBinder.OnCommentLoadListener commentLoadListener) {
         this.commentLoadListener = commentLoadListener;

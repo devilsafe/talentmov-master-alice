@@ -12,7 +12,7 @@ import com.movtalent.app.presenter.iview.IListView;
  */
 public class MovieListPresenter {
 
-    private IListView iListView;
+    private final IListView iListView;
 
     public MovieListPresenter(IListView iListView) {
         this.iListView = iListView;

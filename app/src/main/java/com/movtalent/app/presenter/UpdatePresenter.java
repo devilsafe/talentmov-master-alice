@@ -14,7 +14,7 @@ import com.movtalent.app.util.ToastUtil;
  */
 public class UpdatePresenter {
 
-    private IUpdate iUpdate;
+    private final IUpdate iUpdate;
 
     public UpdatePresenter(IUpdate iUpdate) {
         this.iUpdate = iUpdate;

@@ -89,7 +89,7 @@ dependencies {
     testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
+    compile (name: 'alipaySdk-15.7.6-20200521195109', ext: 'aar')
     implementation 'androidx.cardview:cardview:1.0.0'
     //view 绑定
 //    annotationProcessor 'com.jakewharton:butterknife:8.8.1'

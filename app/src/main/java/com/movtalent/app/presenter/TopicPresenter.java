@@ -13,7 +13,7 @@ import com.movtalent.app.presenter.iview.ITopicView;
  */
 public class TopicPresenter {
 
-    private ITopicView iTopicView;
+    private final ITopicView iTopicView;
 
     public TopicPresenter(ITopicView iTopicView) {
         this.iTopicView = iTopicView;

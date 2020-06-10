@@ -18,10 +18,10 @@ import com.movtalent.app.R;
 public class ArcShapeView extends View {
 
 
-    private Paint paint;
-    private RectF oval2;
+    private final Paint paint;
+    private final RectF oval2;
     private RectF rectF;
-    private Rect bg;
+    private final Rect bg;
 
     public ArcShapeView(Context context) {
         this(context,null);

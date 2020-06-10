@@ -11,13 +11,13 @@ public class CommentSection {
         return commentVo;
     }
 
-    private CommentVo commentVo;
+    private final CommentVo commentVo;
 
     public CommentSectionViewBinder.OnReplyListener getReplyListener() {
         return replyListener;
     }
 
-    private CommentSectionViewBinder.OnReplyListener replyListener;
+    private final CommentSectionViewBinder.OnReplyListener replyListener;
 
 
     public CommentSection(CommentVo commentVo,CommentSectionViewBinder.OnReplyListener replyListener) {

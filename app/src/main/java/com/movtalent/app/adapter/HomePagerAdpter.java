@@ -18,8 +18,8 @@ import java.util.List;
 public class HomePagerAdpter extends FragmentPagerAdapter {
 
 
-    private Context context;
-    private List<Fragment> listfragment;
+    private final Context context;
+    private final List<Fragment> listfragment;
 
     public HomePagerAdpter(FragmentManager fm, List<Fragment> listfragment, Activity activity) {
         super(fm);

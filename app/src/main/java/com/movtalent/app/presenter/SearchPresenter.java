@@ -13,7 +13,7 @@ import com.movtalent.app.presenter.iview.ISearch;
  */
 public class SearchPresenter {
 
-    private ISearch iSearch;
+    private final ISearch iSearch;
 
     public SearchPresenter(ISearch iSearch) {
         this.iSearch = iSearch;

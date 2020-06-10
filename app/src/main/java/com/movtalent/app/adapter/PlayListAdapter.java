@@ -19,10 +19,10 @@ import java.util.ArrayList;
  */
 public class PlayListAdapter extends RecyclerView.Adapter<PlayItemHolder> {
 
-    private ArrayList<VideoVo> urls;
-    private OnSeriClickListener clickListener;
+    private final ArrayList<VideoVo> urls;
+    private final OnSeriClickListener clickListener;
     private int playIndex = 0;
-    private int groupPlay;
+    private final int groupPlay;
 
     public PlayListAdapter(ArrayList<VideoVo> urls, OnSeriClickListener clickListener, int groupPlay) {
         this.urls = urls;
@@ -51,7 +51,7 @@ public class PlayListAdapter extends RecyclerView.Adapter<PlayItemHolder> {
                 notifyDataSetChanged();
             }
         });
-        playItemHolder.index.setSelected(i == GlobalDATA.PLAY_INDEX ? true : false);
+        playItemHolder.index.setSelected(i == GlobalDATA.PLAY_INDEX);
     }
 
     @Override

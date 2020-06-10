@@ -15,8 +15,8 @@ import java.util.concurrent.TimeUnit;
 public class ApiManager {
     private static ApiService api;
     protected static final Object monitor = new Object();
-    private static Retrofit retrofit;
-    private static OkHttpClient client;
+    private static final Retrofit retrofit;
+    private static final OkHttpClient client;
 
     private ApiManager() {
     }

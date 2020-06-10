@@ -6,7 +6,7 @@ package com.movtalent.app.adapter.vip;
  */
 public class VipHeaderSection {
 
-    private VipHeaderSectionViewBinder.OnVipClickListener clickListener;
+    private final VipHeaderSectionViewBinder.OnVipClickListener clickListener;
 
     public void setCoinNum(String coinNum) {
         this.coinNum = coinNum;

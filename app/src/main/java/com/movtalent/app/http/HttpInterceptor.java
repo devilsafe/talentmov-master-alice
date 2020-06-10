@@ -20,7 +20,7 @@ public class HttpInterceptor implements Interceptor {
         String TAG_REQUEST = "requestrequest";
         Log.d(TAG_REQUEST,request.url().toString());
         Response response =  chain.proceed(request);
-        Log.d(TAG_REQUEST,response.message().toString());
+        Log.d(TAG_REQUEST, response.message());
         return response;
     }
 

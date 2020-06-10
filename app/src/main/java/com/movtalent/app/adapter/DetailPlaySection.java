@@ -9,7 +9,7 @@ import com.movtalent.app.model.vo.CommonVideoVo;
  */
 public class DetailPlaySection {
 
-    private CommonVideoVo commonVideoVo;
+    private final CommonVideoVo commonVideoVo;
 
     private int groupPlay;
 
@@ -29,7 +29,7 @@ public class DetailPlaySection {
         return clickListener;
     }
 
-    private OnSeriClickListener clickListener;
+    private final OnSeriClickListener clickListener;
 
     public DetailPlaySection(int groupPlay, CommonVideoVo commonVideoVo, OnSeriClickListener clickListener) {
         this.commonVideoVo = commonVideoVo;

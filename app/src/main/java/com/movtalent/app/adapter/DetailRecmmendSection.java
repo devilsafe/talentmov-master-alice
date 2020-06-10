@@ -14,7 +14,7 @@ public class DetailRecmmendSection {
         return videoVos;
     }
 
-    private ArrayList<CommonVideoVo> videoVos;
+    private final ArrayList<CommonVideoVo> videoVos;
 
     public DetailRecmmendSection(ArrayList<CommonVideoVo> videoVos) {
         this.videoVos = videoVos;

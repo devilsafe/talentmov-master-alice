@@ -26,7 +26,7 @@ import java.util.ArrayList;
  */
 public class DetailPlaySectionViewBinder extends ItemViewBinder<DetailPlaySection, DetailPlaySectionViewBinder.ViewHolder> {
     private int index; //用来判断数组是否越界
-    private String TAG="DetailPlaySectionViewBinder";
+    private final String TAG="DetailPlaySectionViewBinder";
     @NonNull
     @Override
     protected ViewHolder onCreateViewHolder(@NonNull LayoutInflater inflater, @NonNull ViewGroup parent) {
@@ -84,7 +84,7 @@ public class DetailPlaySectionViewBinder extends ItemViewBinder<DetailPlaySectio
         RecyclerView playList;
         TextView seeMore;
         TextView playRes;
-        private String TAG = "选集";
+        private final String TAG = "选集";
 
 
         ViewHolder(View itemView) {

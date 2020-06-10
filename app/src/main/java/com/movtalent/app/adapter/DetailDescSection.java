@@ -17,8 +17,8 @@ public class DetailDescSection {
         return clickListener;
     }
 
-    private OnDetailClickListener clickListener;
-    private CommonVideoVo commonVideoVo;
+    private final OnDetailClickListener clickListener;
+    private final CommonVideoVo commonVideoVo;
 
     public DetailDescSection(CommonVideoVo commonVideoVo,OnDetailClickListener clickListener) {
         this.clickListener = clickListener;

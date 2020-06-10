@@ -7,15 +7,15 @@ package com.movtalent.app.adapter.shop;
  */
 public class VipBrandSection {
 
-    private int itemIcon;
-    private String itemTitle;
-    private String payDesc;
+    private final int itemIcon;
+    private final String itemTitle;
+    private final String payDesc;
 
     public String getPayText() {
         return payText;
     }
 
-    private String payText;
+    private final String payText;
 
     public int getItemIcon() {
         return itemIcon;
@@ -33,7 +33,7 @@ public class VipBrandSection {
         return clickItemPayListener;
     }
 
-    private VipBrandSectionViewBinder.OnClickItemPayListener clickItemPayListener;
+    private final VipBrandSectionViewBinder.OnClickItemPayListener clickItemPayListener;
 
     public VipBrandSection(int itemIcon, String itemTitle, String payDesc, String payCoinNum, VipBrandSectionViewBinder.OnClickItemPayListener clickItemPayListener) {
         this.itemIcon = itemIcon;

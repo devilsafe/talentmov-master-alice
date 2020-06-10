@@ -11,7 +11,7 @@ import com.movtalent.app.util.Md5Utils;
  * createTime 2019-09-17
  */
 public class LoginPresenter {
-    private IUserView iLoginView;
+    private final IUserView iLoginView;
 
     public LoginPresenter(IUserView iLoginView) {
         this.iLoginView = iLoginView;
