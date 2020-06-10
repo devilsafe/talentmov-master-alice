@@ -10,14 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.UserProfileActivity"
-            android:screenOrientation="fullSensor"
-            ></activity>
+                  android:screenOrientation="fullSensor"
+        />
 
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:screenOrientation="fullSensor"
-            ></activity>
+                android:name=".HomeActivity"
+                android:label="@string/title_activity_home"
+                android:screenOrientation="fullSensor">
+
+        </activity>
 
         <activity
             android:name=".SplashActivity"
@@ -70,9 +71,7 @@
         <activity android:name=".view.SearchActivity"
                   android:screenOrientation="portrait"
                   tools:ignore="LockedOrientationActivity"/>
-        <activity android:name=".view.CastDescriptionnActivity"
-                  android:screenOrientation="portrait"
-                  tools:ignore="LockedOrientationActivity"/>>
+
         <activity android:name=".view.AllSubjectActivity"
                   android:screenOrientation="portrait"
                   tools:ignore="LockedOrientationActivity"/>
@@ -86,7 +85,7 @@
             tools:ignore="LockedOrientationActivity"
             android:theme="@style/Theme.TransparentA" />
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -99,7 +98,7 @@
             android:name="org.apache.http.legacy"
             android:required="false" />
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />

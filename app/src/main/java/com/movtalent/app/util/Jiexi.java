@@ -28,7 +28,7 @@ public class Jiexi {
         // ----- init 接口列表 -----------------
         mJklist = new ArrayList<>();
         if (mJklist.size() < 1){
-            mJklist.add(new DBjk("线路2","https://jiexi.380k.com/?url=",2));
+            mJklist.add(new DBjk("线路2","https://parse.xymov.net/?url=",2));
         }
 
 

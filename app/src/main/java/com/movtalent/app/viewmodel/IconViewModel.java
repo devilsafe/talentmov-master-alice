@@ -1,8 +1,8 @@
 package com.movtalent.app.viewmodel;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.MutableLiveData;
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
 import com.movtalent.app.http.ApiService;
 import com.movtalent.app.http.BaseApi;
 import com.movtalent.app.model.dto.IconDto;

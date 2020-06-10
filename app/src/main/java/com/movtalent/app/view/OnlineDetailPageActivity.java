@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
@@ -114,7 +115,7 @@ public class OnlineDetailPageActivity extends AppCompatActivity implements IDeta
     private ArrayList<String> urls = new ArrayList<>();
     ;
     private CommonVideoVo globalVideoVo;
-    private String TAG = "播放页";
+    private final String TAG = "播放页";
 
 
     @Override
@@ -203,7 +204,7 @@ public class OnlineDetailPageActivity extends AppCompatActivity implements IDeta
      * //第一次请求数据
      * 如果是电视剧，会显示分集
      *
-     * @param commonVideoVo
+     * @param commonVideoVo alen
      */
     private void loadSeri(CommonVideoVo commonVideoVo) {
         DetailPlaySection section = new DetailPlaySection(groupPlay, commonVideoVo, new OnSeriClickListener() {
@@ -355,7 +356,7 @@ public class OnlineDetailPageActivity extends AppCompatActivity implements IDeta
 
 
   @Override
-    public void onConfigurationChanged(Configuration newConfig) {
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         playerPresenter.onConfigurationChange(newConfig);
     }
