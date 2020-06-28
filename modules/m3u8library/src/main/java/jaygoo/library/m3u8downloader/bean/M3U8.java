@@ -112,7 +112,7 @@ public class M3U8 {
     public boolean equals(Object obj) {
         if (obj instanceof M3U8){
             M3U8 m3U8 = (M3U8)obj;
-            if (basePath != null && basePath.equals(m3U8.basePath))return true;
+            return basePath != null && basePath.equals(m3U8.basePath);
         }
         return false;
     }

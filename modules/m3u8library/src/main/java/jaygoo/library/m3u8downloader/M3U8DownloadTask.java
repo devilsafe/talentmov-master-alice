@@ -62,7 +62,7 @@ public class M3U8DownloadTask {
 
     //加密Key，默认为空，不加密
     private String encryptKey = null;
-    private String m3u8FileName = "local.m3u8";
+    private final String m3u8FileName = "local.m3u8";
     //文件保存的路径
     private String saveDir;
     //当前下载完成的文件个数
@@ -72,7 +72,7 @@ public class M3U8DownloadTask {
     //单个文件的大小
     private volatile long itemFileSize = 0;
     //所有文件的大小
-    private volatile long totalFileSize = 0;
+    private final long totalFileSize = 0;
     private volatile boolean isStartDownload = true;
     /**
      * 当前已经在下完成的大小
@@ -101,7 +101,7 @@ public class M3U8DownloadTask {
     private ExecutorService executor;//线程池
     private M3U8 currentM3U8;
     long lastLength = 0;
-    private WeakHandler mHandler = new WeakHandler(new Handler.Callback() {
+    private final WeakHandler mHandler = new WeakHandler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message msg) {
             switch (msg.what) {

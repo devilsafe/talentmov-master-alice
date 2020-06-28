@@ -18,11 +18,11 @@
         app:tabTextAppearance="@style/CustomTablayoutTextAppearance3"
         app:tabTextColor="#807F7F"
         />
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/tab_vp"
         android:layout_below="@+id/tablayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </android.support.v4.view.ViewPager>
+    </androidx.viewpager.widget.ViewPager>
 </LinearLayout>

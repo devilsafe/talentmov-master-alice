@@ -15,7 +15,7 @@ import java.util.List;
  */
 class DownloadQueue {
 
-    private List<M3U8Task> queue;
+    private final List<M3U8Task> queue;
 
     public DownloadQueue(){
         queue = new ArrayList<>();

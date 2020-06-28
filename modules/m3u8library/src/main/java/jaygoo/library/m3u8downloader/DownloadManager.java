@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class DownloadManager {
     private String DEFAULT_FILE_DIR;//默认下载目录
-    private Map<String, M3U8DownloadTask> mDownloadTasks;//文件下载任务索引，String为url,用来唯一区别并操作下载的文件
+    private final Map<String, M3U8DownloadTask> mDownloadTasks;//文件下载任务索引，String为url,用来唯一区别并操作下载的文件
     private static DownloadManager mInstance;
 
     /**

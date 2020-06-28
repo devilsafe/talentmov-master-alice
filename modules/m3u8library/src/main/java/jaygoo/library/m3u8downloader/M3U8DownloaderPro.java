@@ -1,7 +1,7 @@
 package jaygoo.library.m3u8downloader;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.widget.Toast;
 import jaygoo.library.m3u8downloader.bean.M3U8Task;
@@ -25,8 +25,8 @@ import java.util.List;
 public class M3U8DownloaderPro {
 
     private long currentTime;
-    private DownloadTaskQueue downLoadQueue;
-    private List<M3U8DownloadTask> taskStack;
+    private final DownloadTaskQueue downLoadQueue;
+    private final List<M3U8DownloadTask> taskStack;
 
     private M3U8DownloaderPro() {
         downLoadQueue = new DownloadTaskQueue();

@@ -216,9 +216,9 @@ public class MUtils {
     }
 
 
-    private static float KB = 1024;
-    private static float MB = 1024 * KB;
-    private static float GB = 1024 * MB;
+    private static final float KB = 1024;
+    private static final float MB = 1024 * KB;
+    private static final float GB = 1024 * MB;
 
     /**
      * 格式化文件大小

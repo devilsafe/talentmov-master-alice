@@ -7,8 +7,8 @@ package jaygoo.library.m3u8downloader.view.item;
  */
 public class M3u8Item {
 
-    private String imgUrl;
-    private String name;
+    private final String imgUrl;
+    private final String name;
 
     public String getImgUrl() {
         return imgUrl;
@@ -22,14 +22,14 @@ public class M3u8Item {
         return taskId;
     }
 
-    private String taskId;
+    private final String taskId;
 
 
     public M3u8ItemViewBinder.OnItemListener getItemListener() {
         return itemListener;
     }
 
-    private M3u8ItemViewBinder.OnItemListener itemListener;
+    private final M3u8ItemViewBinder.OnItemListener itemListener;
 
     public M3u8Item(M3u8ItemViewBinder.OnItemListener itemListener,String taskId,String name,String imgUrl) {
         this.name = name;

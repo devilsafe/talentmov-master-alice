@@ -58,7 +58,7 @@ public class M3U8Task {
     public boolean equals(Object obj) {
         if (obj instanceof M3U8Task){
             M3U8Task m3U8Task = (M3U8Task)obj;
-            if (url != null && url.equals(m3U8Task.getUrl()))return true;
+            return url != null && url.equals(m3U8Task.getUrl());
         }
         return false;
     }

@@ -21,7 +21,7 @@ public class AES128Utils {
      * @param buf
      * @return
      */
-    public static String parseByte2HexStr(byte buf[]) {
+    public static String parseByte2HexStr(byte[] buf) {
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < buf.length; i++) {
             String hex = Integer.toHexString(buf[i] & 0xFF);
@@ -52,8 +52,7 @@ public class AES128Utils {
     /**
      * 生成密钥
      * 自动生成base64 编码后的AES128位密钥
-     * @throws NoSuchAlgorithmException
-     * @throws UnsupportedEncodingException
+
      */
     public static String getAESKey() throws Exception {
         KeyGenerator kg = KeyGenerator.getInstance("AES");

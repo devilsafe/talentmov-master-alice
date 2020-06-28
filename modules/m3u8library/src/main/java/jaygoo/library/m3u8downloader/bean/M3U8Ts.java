@@ -1,6 +1,6 @@
 package jaygoo.library.m3u8downloader.bean;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import jaygoo.library.m3u8downloader.utils.MD5Utils;
 
 /**

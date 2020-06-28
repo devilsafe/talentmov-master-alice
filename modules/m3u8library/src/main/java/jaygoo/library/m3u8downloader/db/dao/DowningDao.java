@@ -1,6 +1,6 @@
 package jaygoo.library.m3u8downloader.db.dao;
 
-import android.arch.persistence.room.*;
+import androidx.room.*;
 import jaygoo.library.m3u8downloader.db.table.M3u8DownloadingInfo;
 
 import java.util.List;

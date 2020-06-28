@@ -21,7 +21,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
     }
     buildTypes {
@@ -34,18 +34,18 @@ android {
 
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
     api 'com.github.NanoHttpd.nanohttpd:nanohttpd:master'
     //蚯蚓导航 https://github.com/auv1107/tablayout-android
     compileOnly 'com.github.hiliving:tablayout-android:1.0.1'
     compileOnly 'com.jcodecraeer:xrecyclerview:1.5.9'
     compileOnly 'me.drakeet.multitype:multitype:3.4.4'
-    compileOnly 'com.github.bumptech.glide:glide:4.8.0'
+    compileOnly 'com.github.bumptech.glide:glide:4.9.0'
 
-    compileOnly 'android.arch.persistence.room:runtime:1.1.1'
-    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    compileOnly 'androidx.room:room-runtime:2.0.0'
+    annotationProcessor 'androidx.room:room-compiler:2.0.0'
 
-    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
 
     //对话框
     compileOnly 'com.lxj:xpopup:1.6.7'
