@@ -1,11 +1,11 @@
 package com.lib.common.util.room;
 
-import android.arch.persistence.db.SupportSQLiteStatement;
-import android.arch.persistence.room.EntityDeletionOrUpdateAdapter;
-import android.arch.persistence.room.EntityInsertionAdapter;
-import android.arch.persistence.room.RoomDatabase;
-import android.arch.persistence.room.RoomSQLiteQuery;
 import android.database.Cursor;
+import androidx.room.EntityDeletionOrUpdateAdapter;
+import androidx.room.EntityInsertionAdapter;
+import androidx.room.RoomDatabase;
+import androidx.room.RoomSQLiteQuery;
+import androidx.sqlite.db.SupportSQLiteStatement;
 import com.lib.common.util.data.DiggCommentInfo;
 import java.lang.Override;
 import java.lang.String;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("unchecked")
-public class DiggCommentDao_Impl implements DiggCommentDao {
+public final class DiggCommentDao_Impl implements DiggCommentDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter __insertionAdapterOfDiggCommentInfo;

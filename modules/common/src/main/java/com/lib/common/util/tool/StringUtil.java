@@ -78,7 +78,6 @@ public class StringUtil {
             return null;
         }
         String result = text.substring(0, ri);
-        ;
         return result;
     }
 
@@ -86,7 +85,6 @@ public class StringUtil {
         int ri;
         ri = text.indexOf(t1);
         String result = text.substring(0, ri) + t2;
-        ;
         return result;
     }
 
@@ -108,14 +106,14 @@ public class StringUtil {
     }
 
     public static String getTextRight(String text, int length) {
-        return text.substring(text.length() - length, text.length());
+        return text.substring(text.length() - length);
     }
 
     public static String getTextRight(String text, String t1) {
         int ri;
         ri = text.lastIndexOf(t1);
         if (ri == -1) return null;
-        String result = text.substring(ri + 1, text.length());
+        String result = text.substring(ri + 1);
         return result;
     }
 

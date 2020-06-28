@@ -12,8 +12,8 @@ public class App_Config {
     /**
      * 服务器所有请求依赖的主域名，为cms接口系统安装的地址
      */
-    public static final String BASE_URL = "http://192.168.1.104/";
-//    public static final String BASE_URL = "http://194.58.119.183/";
+//    public static final String BASE_URL = "http://192.168.1.104/";
+    public static final String BASE_URL = "http://194.58.119.183/";
     /**
      * 主分类配置，不建议修改
      */
@@ -69,7 +69,7 @@ public class App_Config {
     /**
      * 开屏页地址
      */
-    public static final String SPLAH_URL = "http://www.baidu.com";
+    public static final String SPLAH_URL = "https://www.518915.com";
 
     /**
      * 内置头像，可自己替换

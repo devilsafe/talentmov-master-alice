@@ -12,7 +12,7 @@ public class SharePreferencesUtil {
 
     public static void setStringSharePreferences(Context context, String key, String value) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //实例化SharedPreferences.Editor对象
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -24,7 +24,7 @@ public class SharePreferencesUtil {
 
     public static String getStringSharePreferences(Context context, String key, String defaultValue) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //获取key相应value 否则返回默认值
        String value = sharedPreferences.getString(key, defaultValue);
@@ -33,7 +33,7 @@ public class SharePreferencesUtil {
 
     public static void setIntSharePreferences(Context context, String key, int value) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //实例化SharedPreferences.Editor对象
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -45,7 +45,7 @@ public class SharePreferencesUtil {
 
     public static int getIntSharePreferences(Context context, String key, int defaultValue) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //获取key相应value 否则返回默认值
         int value = sharedPreferences.getInt(key, defaultValue);
@@ -54,7 +54,7 @@ public class SharePreferencesUtil {
 
     public static void setBooleanSharePreferences(Context context, String key, boolean value) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //实例化SharedPreferences.Editor对象
         SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -66,7 +66,7 @@ public class SharePreferencesUtil {
 
     public static boolean getBooleanSharePreferences(Context context, String key, boolean defaultValue) {
         //实例化SharedPreferences对象
-        SharedPreferences sharedPreferences = (SharedPreferences) PreferenceManager
+        SharedPreferences sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(context);
         //获取key相应value 否则返回默认值
         boolean value = sharedPreferences.getBoolean(key, defaultValue);

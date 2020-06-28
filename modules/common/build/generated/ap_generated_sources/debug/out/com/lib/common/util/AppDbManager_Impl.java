@@ -1,17 +1,17 @@
 package com.lib.common.util;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
-import android.arch.persistence.db.SupportSQLiteOpenHelper;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Callback;
-import android.arch.persistence.db.SupportSQLiteOpenHelper.Configuration;
-import android.arch.persistence.room.DatabaseConfiguration;
-import android.arch.persistence.room.InvalidationTracker;
-import android.arch.persistence.room.RoomOpenHelper;
-import android.arch.persistence.room.RoomOpenHelper.Delegate;
-import android.arch.persistence.room.util.TableInfo;
-import android.arch.persistence.room.util.TableInfo.Column;
-import android.arch.persistence.room.util.TableInfo.ForeignKey;
-import android.arch.persistence.room.util.TableInfo.Index;
+import androidx.room.DatabaseConfiguration;
+import androidx.room.InvalidationTracker;
+import androidx.room.RoomOpenHelper;
+import androidx.room.RoomOpenHelper.Delegate;
+import androidx.room.util.TableInfo;
+import androidx.room.util.TableInfo.Column;
+import androidx.room.util.TableInfo.ForeignKey;
+import androidx.room.util.TableInfo.Index;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+import androidx.sqlite.db.SupportSQLiteOpenHelper;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
+import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
 import com.lib.common.util.room.DiggCommentDao;
 import com.lib.common.util.room.DiggCommentDao_Impl;
 import com.lib.common.util.room.HistoryDao;
@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 @SuppressWarnings("unchecked")
-public class AppDbManager_Impl extends AppDbManager {
+public final class AppDbManager_Impl extends AppDbManager {
   private volatile HistoryDao _historyDao;
 
   private volatile SearchDao _searchDao;

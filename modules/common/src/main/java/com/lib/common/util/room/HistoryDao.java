@@ -1,6 +1,6 @@
 package com.lib.common.util.room;
 
-import android.arch.persistence.room.*;
+import androidx.room.*;
 import com.lib.common.util.data.HistoryInfo;
 
 import java.util.List;

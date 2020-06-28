@@ -91,9 +91,7 @@ public class PUtil {
         List<ActivityManager.RunningTaskInfo> list = am.getRunningTasks(1);
         if (list != null && list.size() > 0) {
             ComponentName cpn = list.get(0).topActivity;
-            if (className.equals(cpn.getClassName())) {
-                return true;
-            }
+            return className.equals(cpn.getClassName());
         }
         return false;
     }
