@@ -1,2 +1,8 @@
 /.gradle/
 /.idea/
+/.gradle/
+/.idea/
+/build/
+/gradle/
+/modules/common/build/
+/modules/playerlib/build/
