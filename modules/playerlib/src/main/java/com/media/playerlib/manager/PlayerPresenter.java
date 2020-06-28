@@ -53,7 +53,7 @@ public class PlayerPresenter {
     /**
      * 视频填充比，填充布局
      */
-    private AspectRatio mAspectRatio = AspectRatio.AspectRatio_FIT_PARENT;
+    private final AspectRatio mAspectRatio = AspectRatio.AspectRatio_FIT_PARENT;
     private boolean isLandScape;
     private int originHeight;
     private ReceiverGroup receiverGroup;
@@ -185,7 +185,7 @@ public class PlayerPresenter {
      * example: {@link BaseCover#requestResume(Bundle)}
      * 例如：这里是接收了静音的事件
      */
-    private OnReceiverEventListener receiverEventListener = new OnReceiverEventListener() {
+    private final OnReceiverEventListener receiverEventListener = new OnReceiverEventListener() {
         @Override
         public void onReceiverEvent(int eventCode, Bundle bundle) {
             switch (eventCode) {
@@ -253,7 +253,7 @@ public class PlayerPresenter {
      * 播放器自身播放过程中的事件，比如，播放完成、暂停、启播、重播等事件。
      * 不需要自定义，添加监听后可直接获取这些事件
      */
-    private OnPlayerEventListener eventListener = new OnPlayerEventListener() {
+    private final OnPlayerEventListener eventListener = new OnPlayerEventListener() {
         @Override
         public void onPlayerEvent(int eventCode, Bundle bundle) {
             switch (eventCode) {
@@ -460,7 +460,7 @@ public class PlayerPresenter {
     /**
      * 获取屏幕方向感应，自动旋转屏幕,仅供演示，极光影院为直接横屏，故不使用
      */
-    private OrientationSensor.OnOrientationListener onOrientationListener =
+    private final OrientationSensor.OnOrientationListener onOrientationListener =
             new OrientationSensor.OnOrientationListener() {
                 @Override
                 public void onLandScape(int orientation) {

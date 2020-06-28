@@ -32,7 +32,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="23dp" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:id="@+id/device_list"
         android:layout_below="@+id/dlan_small_tip"

@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: cn.bingoogolapple:bga-banner:2.2.6@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/f6e74640003c1bdcafe042e3e3d90d57/bga-banner-2.2.6/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/f6e74640003c1bdcafe042e3e3d90d57/bga-banner-2.2.6/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/4e2cde91615e309ac5746ea851d7161f/jetified-bga-banner-2.2.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/4e2cde91615e309ac5746ea851d7161f/jetified-bga-banner-2.2.6/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/cn.bingoogolapple/bga-banner/2.2.6/ef480d2b3ee54bdce57a3b2eaefd8dbbedc9844b/bga-banner-2.2.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/cn.bingoogolapple/bga-banner/2.2.6/ef480d2b3ee54bdce57a3b2eaefd8dbbedc9844b/bga-banner-2.2.6-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/cn.bingoogolapple/bga-banner/2.2.6/26bdc9acce3c7cb53cfadb58e5efd6d0e17a2533/bga-banner-2.2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/cn.bingoogolapple/bga-banner/2.2.6/26bdc9acce3c7cb53cfadb58e5efd6d0e17a2533/bga-banner-2.2.6-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

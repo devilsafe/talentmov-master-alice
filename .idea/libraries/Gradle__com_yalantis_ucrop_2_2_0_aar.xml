@@ -1,17 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: com.yalantis:ucrop:2.2.0@aar">
     <ANNOTATIONS>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/771891163689c791cf76099630daacb8/ucrop-2.2.0/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/bb5995a34861c52af028f0e3307090a0/jetified-ucrop-2.2.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/771891163689c791cf76099630daacb8/ucrop-2.2.0/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/771891163689c791cf76099630daacb8/ucrop-2.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/bb5995a34861c52af028f0e3307090a0/jetified-ucrop-2.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/bb5995a34861c52af028f0e3307090a0/jetified-ucrop-2.2.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.yalantis/ucrop/2.2.0/3c89d7829e320da52251660ff082c0459b81e69a/ucrop-2.2.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.yalantis/ucrop/2.2.0/3c89d7829e320da52251660ff082c0459b81e69a/ucrop-2.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.yalantis/ucrop/2.2.0/b77116d4431ca793b6557b75ff7869bcf8e47118/ucrop-2.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.yalantis/ucrop/2.2.0/b77116d4431ca793b6557b75ff7869bcf8e47118/ucrop-2.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

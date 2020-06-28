@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ctiao:ndkbitmap-armv7a:0.9.21@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/9e545b4fca3c1528545f265f34978a3d/ndkbitmap-armv7a-0.9.21/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/9e545b4fca3c1528545f265f34978a3d/ndkbitmap-armv7a-0.9.21/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/3a8cb3a4dce0f36e080cde8d191d15ce/jetified-ndkbitmap-armv7a-0.9.21/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/3a8cb3a4dce0f36e080cde8d191d15ce/jetified-ndkbitmap-armv7a-0.9.21/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.ctiao/ndkbitmap-armv7a/0.9.21/3bde1322a4bb5a75fa7ad483a33400af159f2733/ndkbitmap-armv7a-0.9.21-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.github.ctiao/ndkbitmap-armv7a/0.9.21/3bde1322a4bb5a75fa7ad483a33400af159f2733/ndkbitmap-armv7a-0.9.21-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.ctiao/ndkbitmap-armv7a/0.9.21/a3b805842f2002d97eb6897ee995c160a39aaf2c/ndkbitmap-armv7a-0.9.21-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.github.ctiao/ndkbitmap-armv7a/0.9.21/a3b805842f2002d97eb6897ee995c160a39aaf2c/ndkbitmap-armv7a-0.9.21-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

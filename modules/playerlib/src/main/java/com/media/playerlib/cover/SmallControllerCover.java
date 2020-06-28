@@ -48,11 +48,11 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
 
 
     public static int CurrentIndex = 0;
-    private static boolean TIME_DELAY_FINISH = false;
+    private static final boolean TIME_DELAY_FINISH = false;
     private final int MSG_CODE_DELAY_HIDDEN_CONTROLLER = 101;
 
 
-    private String KEY_IS_LANDSCAPE = "isLandscape";
+    private final String KEY_IS_LANDSCAPE = "isLandscape";
 
     String KEY_DATA_SOURCE = "data_source";
 
@@ -72,7 +72,7 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
 
     private boolean mTimerUpdateProgressEnable = true;
 
-    private Handler callbacks = new Handler(Looper.getMainLooper()) {
+    private final Handler callbacks = new Handler(Looper.getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
@@ -206,7 +206,7 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
     /**
      * 注册事件接收key，注册后才能接收到事件
      */
-    private IReceiverGroup.OnGroupValueUpdateListener groupValueUpdateListener =
+    private final IReceiverGroup.OnGroupValueUpdateListener groupValueUpdateListener =
             new IReceiverGroup.OnGroupValueUpdateListener() {
                 @Override
                 public String[] filterKeys() {
@@ -245,7 +245,7 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
                 }
             };
 
-    private SeekBar.OnSeekBarChangeListener onSeekBarChangeListener =
+    private final SeekBar.OnSeekBarChangeListener onSeekBarChangeListener =
             new SeekBar.OnSeekBarChangeListener() {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -271,7 +271,7 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
         callbacks.postDelayed(mSeekEventRunnable, 300);
     }
 
-    private Runnable mSeekEventRunnable = new Runnable() {
+    private final Runnable mSeekEventRunnable = new Runnable() {
         @Override
         public void run() {
             if (mSeekProgress < 0)
@@ -589,11 +589,7 @@ public class SmallControllerCover extends BaseCover implements OnTimerUpdateList
     }
 
     private void toggleLock() {
-        if (mLock.isShown()) {
-            setLockState(false);
-        } else {
-            setLockState(true);
-        }
+        setLockState(!mLock.isShown());
     }
 
     @Override

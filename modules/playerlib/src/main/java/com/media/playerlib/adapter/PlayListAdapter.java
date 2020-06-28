@@ -1,8 +1,8 @@
 package com.media.playerlib.adapter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,9 +20,9 @@ import com.media.playerlib.model.VideoPlayVo;
 public class PlayListAdapter extends RecyclerView.Adapter<PlayHolder> {
 
 
-    private VideoPlayVo infos;
-    private Context context;
-    private ControllerCover.OnItemClickedListener clickedListener;
+    private final VideoPlayVo infos;
+    private final Context context;
+    private final ControllerCover.OnItemClickedListener clickedListener;
 
     public PlayListAdapter(VideoPlayVo mPlayList, Context activity, ControllerCover.OnItemClickedListener clickedListener) {
         this.infos = mPlayList;
@@ -60,11 +60,7 @@ public class PlayListAdapter extends RecyclerView.Adapter<PlayHolder> {
             }
         });
 
-        if (ControllerCover.CurrentIndex == position) {
-            holder.index.setSelected(true);
-        } else {
-            holder.index.setSelected(false);
-        }
+        holder.index.setSelected(ControllerCover.CurrentIndex == position);
     }
 
     @Override

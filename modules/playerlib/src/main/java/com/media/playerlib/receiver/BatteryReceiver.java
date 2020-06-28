@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 
 public class BatteryReceiver extends BroadcastReceiver {
-    private ImageView pow;
+    private final ImageView pow;
 
     public BatteryReceiver(ImageView pow) {
         this.pow = pow;

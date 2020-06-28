@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/0c16e1cf822c5f6bd8c66528320cc186/rxpermissions-0.9.4/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/0c16e1cf822c5f6bd8c66528320cc186/rxpermissions-0.9.4/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/04ffe8e9e8199a1eac1aa478f42d949c/jetified-rxpermissions-0.9.4/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/04ffe8e9e8199a1eac1aa478f42d949c/jetified-rxpermissions-0.9.4/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.tbruyelle.rxpermissions/rxpermissions/0.9.4/82d90bee57078a2bef9cdb878ab3ad404137b1f8/rxpermissions-0.9.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.tbruyelle.rxpermissions/rxpermissions/0.9.4/82d90bee57078a2bef9cdb878ab3ad404137b1f8/rxpermissions-0.9.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.tbruyelle.rxpermissions/rxpermissions/0.9.4/721a1f30de963e26256db2a4fe24a8e99f8e8baa/rxpermissions-0.9.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.tbruyelle.rxpermissions/rxpermissions/0.9.4/721a1f30de963e26256db2a4fe24a8e99f8e8baa/rxpermissions-0.9.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

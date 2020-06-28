@@ -29,7 +29,7 @@ public abstract class BaseBottomInputSheet extends Dialog{
     private EditText editView;
     private String mEditContent;
 
-    private IBottomInput iPublish;
+    private final IBottomInput iPublish;
     private long clickTime;
 
 
@@ -114,7 +114,7 @@ public abstract class BaseBottomInputSheet extends Dialog{
     /**
      * 发布完城，关闭输入框
      */
-    private OnPublishResult onPublishResult = new OnPublishResult() {
+    private final OnPublishResult onPublishResult = new OnPublishResult() {
         @Override
         public void onResult() {
             BaseBottomInputSheet.this.dismiss();

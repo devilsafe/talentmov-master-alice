@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:glide:4.9.0@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/3edb762eaf303f23c9302fccf7648a68/glide-4.9.0/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/3edb762eaf303f23c9302fccf7648a68/glide-4.9.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/5667760744215ce504be92d24721550c/jetified-glide-4.9.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/5667760744215ce504be92d24721550c/jetified-glide-4.9.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/b53be1dd9e86c008d96d319510846282f95c49f/glide-4.9.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/b53be1dd9e86c008d96d319510846282f95c49f/glide-4.9.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/5f95e3cc34b116a8024f2af42f66e257d2e28ccb/glide-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.9.0/5f95e3cc34b116a8024f2af42f66e257d2e28ccb/glide-4.9.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

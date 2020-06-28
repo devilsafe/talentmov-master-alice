@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.umeng.umsdk:common:2.0.0@jar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/f8e6dc3303a1f50ef69cf571e55e027852830dcd/common-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/f8e6dc3303a1f50ef69cf571e55e027852830dcd/common-2.0.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/ff12e56f2134d57a46a76909399a3ebd0f0f62e6/common-2.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/ff12e56f2134d57a46a76909399a3ebd0f0f62e6/common-2.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/ff12e56f2134d57a46a76909399a3ebd0f0f62e6/common-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.umeng.umsdk/common/2.0.0/ff12e56f2134d57a46a76909399a3ebd0f0f62e6/common-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

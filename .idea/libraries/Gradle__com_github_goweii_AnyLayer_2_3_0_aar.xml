@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.goweii:AnyLayer:2.3.0@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/87fb4feb1bddfe922b1b51948e68404a/AnyLayer-2.3.0/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/87fb4feb1bddfe922b1b51948e68404a/AnyLayer-2.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/c07b34999de4602681770d6852ac505c/jetified-AnyLayer-2.3.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/c07b34999de4602681770d6852ac505c/jetified-AnyLayer-2.3.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/com.github.goweii/AnyLayer/2.3.0/785238ca1166d5f4b0058387ff5c04d335bfdbf5/AnyLayer-2.3.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/com.github.goweii/AnyLayer/2.3.0/785238ca1166d5f4b0058387ff5c04d335bfdbf5/AnyLayer-2.3.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -10,8 +10,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
@@ -61,7 +61,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
      * 全局播放索引，0开始，显示时记得加1
      */
     public static int CurrentIndex = 0;
-    private static boolean TIME_DELAY_FINISH = false;
+    private static final boolean TIME_DELAY_FINISH = false;
     private final int MSG_CODE_DELAY_HIDDEN_CONTROLLER = 101;
 
 
@@ -86,7 +86,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
 
     private boolean mTimerUpdateProgressEnable = true;
 
-    private Handler mHandler = new Handler(Looper.getMainLooper()) {
+    private final Handler mHandler = new Handler(Looper.getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
@@ -245,7 +245,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
     /**
      * 注册事件接收key，注册后才能接收到事件
      */
-    private IReceiverGroup.OnGroupValueUpdateListener mOnGroupValueUpdateListener =
+    private final IReceiverGroup.OnGroupValueUpdateListener mOnGroupValueUpdateListener =
             new IReceiverGroup.OnGroupValueUpdateListener() {
                 @Override
                 public String[] filterKeys() {
@@ -297,7 +297,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
                 }
             };
 
-    private SeekBar.OnSeekBarChangeListener onSeekBarChangeListener =
+    private final SeekBar.OnSeekBarChangeListener onSeekBarChangeListener =
             new SeekBar.OnSeekBarChangeListener() {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -323,7 +323,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
         mHandler.postDelayed(mSeekEventRunnable, 300);
     }
 
-    private Runnable mSeekEventRunnable = new Runnable() {
+    private final Runnable mSeekEventRunnable = new Runnable() {
         @Override
         public void run() {
             if (mSeekProgress < 0)
@@ -663,11 +663,7 @@ public class ControllerCover extends BaseCover implements OnTimerUpdateListener,
     }
 
     private void toggleLock() {
-        if (mLock.isShown()) {
-            setLockState(false);
-        } else {
-            setLockState(true);
-        }
+        setLockState(!mLock.isShown());
     }
 
     @Override

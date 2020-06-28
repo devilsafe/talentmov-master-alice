@@ -50,7 +50,7 @@ public class GestureCover extends BaseCover implements OnTouchGestureListener {
 
     private Bundle mBundle;
 
-    private Handler mHandler = new Handler(Looper.getMainLooper()) {
+    private final Handler mHandler = new Handler(Looper.getMainLooper()) {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
@@ -104,7 +104,7 @@ public class GestureCover extends BaseCover implements OnTouchGestureListener {
         mHandler.postDelayed(mSeekEventRunnable, 300);
     }
 
-    private Runnable mSeekEventRunnable = new Runnable() {
+    private final Runnable mSeekEventRunnable = new Runnable() {
         @Override
         public void run() {
             if (mSeekProgress < 0)
@@ -115,7 +115,7 @@ public class GestureCover extends BaseCover implements OnTouchGestureListener {
         }
     };
 
-    private IReceiverGroup.OnGroupValueUpdateListener mOnGroupValueUpdateListener =
+    private final IReceiverGroup.OnGroupValueUpdateListener mOnGroupValueUpdateListener =
             new IReceiverGroup.OnGroupValueUpdateListener() {
                 @Override
                 public String[] filterKeys() {

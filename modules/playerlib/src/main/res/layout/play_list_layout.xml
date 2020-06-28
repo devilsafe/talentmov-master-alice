@@ -6,7 +6,7 @@
     android:id="@+id/chose_root"
     android:layout_gravity="right|center_vertical"
     android:orientation="vertical">
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/play_list"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"

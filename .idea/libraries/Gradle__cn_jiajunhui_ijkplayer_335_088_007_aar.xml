@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: cn.jiajunhui:ijkplayer:335_088_007@aar">
     <CLASSES>
-      <root url="jar://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/63d72c7d801d39abb1c782e580140ab6/ijkplayer-335_088_007/jars/classes.jar!/" />
-      <root url="file://C:/gradle-6.3/bin/caches/transforms-2/files-2.1/63d72c7d801d39abb1c782e580140ab6/ijkplayer-335_088_007/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/b15776bb02b185c163c0fab7fedb9e55/jetified-ijkplayer-335_088_007/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/transforms-2/files-2.1/b15776bb02b185c163c0fab7fedb9e55/jetified-ijkplayer-335_088_007/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/cn.jiajunhui/ijkplayer/335_088_007/5da2b4386c3f9124025eed98cfcb6c3ad2245331/ijkplayer-335_088_007-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/cn.jiajunhui/ijkplayer/335_088_007/5da2b4386c3f9124025eed98cfcb6c3ad2245331/ijkplayer-335_088_007-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://C:/gradle-6.3/bin/caches/modules-2/files-2.1/cn.jiajunhui/ijkplayer/335_088_007/626129847abec47ed79bf47a13acfd3ddd41318d/ijkplayer-335_088_007-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../gradle-6.3/bin/caches/modules-2/files-2.1/cn.jiajunhui/ijkplayer/335_088_007/626129847abec47ed79bf47a13acfd3ddd41318d/ijkplayer-335_088_007-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

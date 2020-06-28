@@ -69,13 +69,13 @@ public class StringUtil {
         if (ri < 1){
             return null;
         }
-        String result = text.substring(0, ri);;
+        String result = text.substring(0, ri);
         return result;
     }
     public static String getLeftText(String text, String t1, String t2){
         int ri;
         ri = text.indexOf(t1);
-        String result = text.substring(0, ri) + t2;;
+        String result = text.substring(0, ri) + t2;
         return result;
     }
     public static String getLeftText(String text, int length){
@@ -95,13 +95,13 @@ public class StringUtil {
     }
 
     public static String getTextRight(String text, int length){
-        return text.substring(text.length() - length,text.length());
+        return text.substring(text.length() - length);
     }
     public static String getTextRight(String text, String t1){
         int ri;
         ri = text.lastIndexOf(t1);
         if (ri == -1) return null;
-        String result = text.substring(ri + 1, text.length());
+        String result = text.substring(ri + 1);
         return result;
     }
     public static List<String> getCenterTextList(String text, String left, String right){

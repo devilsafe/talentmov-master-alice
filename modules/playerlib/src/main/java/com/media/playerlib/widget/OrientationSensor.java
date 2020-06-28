@@ -20,20 +20,20 @@ import android.os.Message;
 public class OrientationSensor {
     private final int MSG_SENSOR = 888;
 
-    private OnOrientationListener onOrientationListener;
+    private final OnOrientationListener onOrientationListener;
 
     // 是否是竖屏
     private boolean isPortrait = true;
 
-    private SensorManager sm;
-    private OrientationSensorListener listener;
-    private Sensor sensor;
+    private final SensorManager sm;
+    private final OrientationSensorListener listener;
+    private final Sensor sensor;
 
-    private SensorManager sm1;
-    private Sensor sensor1;
-    private OrientationSensorListener1 listener1;
+    private final SensorManager sm1;
+    private final Sensor sensor1;
+    private final OrientationSensorListener1 listener1;
 
-    private Handler mHandler = new Handler(Looper.getMainLooper()) {
+    private final Handler mHandler = new Handler(Looper.getMainLooper()) {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case MSG_SENSOR:
@@ -139,7 +139,7 @@ public class OrientationSensor {
 
         public static final int ORIENTATION_UNKNOWN = -1;
 
-        private Handler rotateHandler;
+        private final Handler rotateHandler;
 
         public OrientationSensorListener(Handler handler) {
             rotateHandler = handler;
@@ -161,7 +161,7 @@ public class OrientationSensor {
                 // 屏幕旋转时
                 float OneEightyOverPi = 57.29577957855f;
                 float angle = (float) Math.atan2(-Y, X) * OneEightyOverPi;
-                orientation = 90 - (int) Math.round(angle);
+                orientation = 90 - Math.round(angle);
                 // normalize to 0 - 359 range
                 while (orientation >= 360) {
                     orientation -= 360;
@@ -202,7 +202,7 @@ public class OrientationSensor {
                 // 屏幕旋转时
                 float OneEightyOverPi = 57.29577957855f;
                 float angle = (float) Math.atan2(-Y, X) * OneEightyOverPi;
-                orientation = 90 - (int) Math.round(angle);
+                orientation = 90 - Math.round(angle);
                 // normalize to 0 - 359 range
                 while (orientation >= 360) {
                     orientation -= 360;

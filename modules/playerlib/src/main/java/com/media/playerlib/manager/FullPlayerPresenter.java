@@ -49,7 +49,7 @@ public class FullPlayerPresenter {
     /**
      * 视频填充比，填充布局
      */
-    private AspectRatio mAspectRatio = AspectRatio.AspectRatio_FIT_PARENT;
+    private final AspectRatio mAspectRatio = AspectRatio.AspectRatio_FIT_PARENT;
     private boolean isLandScape;
     private int originHeight;
     private ReceiverGroup receiverGroup;
@@ -201,7 +201,7 @@ public class FullPlayerPresenter {
      * example: {@link BaseCover#requestResume(Bundle)}
      * 例如：这里是接收了静音的事件
      */
-    private OnReceiverEventListener receiverEventListener = new OnReceiverEventListener() {
+    private final OnReceiverEventListener receiverEventListener = new OnReceiverEventListener() {
         @Override
         public void onReceiverEvent(int eventCode, Bundle bundle) {
             switch (eventCode) {
@@ -265,7 +265,7 @@ public class FullPlayerPresenter {
      * 播放器自身播放过程中的事件，比如，播放完成、暂停、启播、重播等事件。
      * 不需要自定义，添加监听后可直接获取这些事件
      */
-    private OnPlayerEventListener eventListener = new OnPlayerEventListener() {
+    private final OnPlayerEventListener eventListener = new OnPlayerEventListener() {
         @Override
         public void onPlayerEvent(int eventCode, Bundle bundle) {
             switch (eventCode) {
